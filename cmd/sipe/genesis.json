@@ -1,0 +1,95 @@
+{
+  "config": {
+    "chainId": 20240119,
+    "singularityBlock": 0,
+    "resourcePolicies": [
+      {
+        "resourceName": "CONTRACT_MANAGE-INIT_CONTRACT",
+        "policy": {
+          "rule": "MAJORITY",
+          "orgList": [],
+          "roleList": ["admin"]
+        }
+      }
+    ],
+    "trustRoots": [
+      {
+        "orgId": "org1",
+        "roots": ["path1.ca"]
+      },
+      {
+        "orgId": "org2",
+        "roots": ["path2.ca"]
+      },
+      {
+        "orgId": "org3",
+        "roots": ["path3.ca"]
+      },
+      {
+        "orgId": "org4",
+        "roots": ["path4.ca"]
+      }
+    ],
+    "hotstuff": {
+      "view": 0,
+      "council": [{
+        "id": 1,
+        "publicKey": "0xa07aec1c5ceb048bd92ed81562992f65dc094f3f0623eeb100aa91dee6172a89de9df777fe8dad1dffd629a31f5976f8"
+      }, {
+        "id": 2,
+        "publicKey": "0xafa5e7e37a4fd53ce9dcf3e6f1ce644547171b37e1a47e0c21f043c50b8e4240074da47ad1415ab4a2560bce2fa6b1b6"
+      }, {
+        "id": 3,
+        "publicKey": "0xb3a7306c548a709b698a3da831221d32fb0f2ff783c242047898d997dbdac5f0e41d82ecb30cb5f47de0d397111d374b"
+      }, {
+        "id": 4,
+        "publicKey": "0xa12e30c5221fd83229e157602301a5c7bbe724ab8f9986afebccbbbef7b0df434e1cf37752a400ce06db7c15cf306311"
+      }, {
+        "id": 5,
+        "publicKey": "0xb54cc748ecec20b45e6b1c4b70e8772ef60faccf80e71b7a81dbad3990871823e76865bf4ec8275c4c2f0934a3fd6b7d"
+      }, {
+        "id": 6,
+        "publicKey": "0x95fd55a84fa09ec40848cb0b02460478bd74ef58c1324805651c6f2091f3df2e730834a25734fa916ad17c4df51e951c"
+      }, {
+        "id": 7,
+        "publicKey": "0x83e03970ac9c2a37bb2a17b79f4c7748734ed5ed3090e333810b604763b0b50b8afeb8ebd600fe589a3a6fbff22d6cd1"
+      }]
+    }
+  },
+  "nonce": "0x0000000000000001",
+  "timestamp": "0x611dd0cd",
+  "extraData": "0x6800c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "gasLimit": "0x1cf1ab00",
+  "difficulty": "0x1",
+  "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "coinbase": "0x0000000000000000000000000000000000000000",
+  "alloc": {
+    "0000000000000000000000000000000000000000": {
+      "balance": "0x1"
+    },
+    "3f2396385AD1284f375e808e0F9743D244448707": {
+      "balance": "0xffff84595161401484a000000"
+    },
+    "0E51E6b5Ef851c8541D64b31aA6c3d7271ba562F": {
+      "balance": "0xffff84595161401484a000000"
+    },
+    "2d1a507Dd6230DabaeeEB81662f8120A364fcb72": {
+      "balance": "0xffff84595161401484a000000"
+    },
+    "B13989BCb362Cd56df9CFf7814E7a81F93C388c8": {
+      "balance": "0xffff84595161401484a000000"
+    },
+    "043F76692aE254E55A78446b92281B6E0B5Edf90": {
+      "balance": "0xffff84595161401484a000000"
+    },
+    "340Fac9ED86176acB9DaC3ba6Bdd33E460a03d37": {
+      "balance": "0xffff84595161401484a000000"
+    },
+    "2Ae7C6a1A71C475dc61374de340D58274F72d7B1": {
+      "balance": "0xffff84595161401484a000000"
+    }
+  },
+  "number": "0x0",
+  "gasUsed": "0x0",
+  "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000"
+}

@@ -1,0 +1,14 @@
+{
+  "chain_id": "123456",
+  "sipe_addr": "https://sipe.dataqin.com:8545",
+  "private_key": "keystore/0xe4584CF875DFda5138dBEe7c7987A6ddf492C579.key",
+  "cert": "keystore/0xe4584CF875DFda5138dBEe7c7987A6ddf492C579.crt",
+  "ca_certs": ["keystore/ca.crt"],
+  "sender_private_key": ["keystore/UTC--2020-06-01T11-15-06.656939016Z--e4584cf875dfda5138dbee7c7987a6ddf492c579"],
+  "sender_private_key_password": ["keystore/passwd.txt"],
+  "receiver": "0x6d602af3d525bf2b5c3160e362f7d451dfeb0a86",
+  "gas_price_limit": 26712,
+  "gas_price": 5,
+  "dummy_internal": 5,
+  "monitor": true
+}
