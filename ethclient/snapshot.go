@@ -2,11 +2,11 @@ package ethclient
 
 import (
 	"context"
-	"github.com/simplechain-org/go-simplechain/common"
+	"github.com/bigzoro/my_simplechain/common"
 	"math/big"
 
-	"github.com/simplechain-org/go-simplechain"
-	"github.com/simplechain-org/go-simplechain/consensus/clique"
+	"github.com/bigzoro/my_simplechain"
+	"github.com/bigzoro/my_simplechain/consensus/clique"
 )
 
 func (ec *Client) GetSnapshot(ctx context.Context, number *big.Int) (*clique.Snapshot, error) {
@@ -21,8 +21,8 @@ func (ec *Client) GetSnapshot(ctx context.Context, number *big.Int) (*clique.Sna
 }
 
 // Propose auth 表示的是授权和去授权的意思
-//true 表示授权
-//false 表示的是把权力收回
+// true 表示授权
+// false 表示的是把权力收回
 func (ec *Client) Propose(ctx context.Context, address common.Address, auth bool) error {
 	var result interface{}
 	err := ec.c.CallContext(ctx, &result, "clique_propose", address, auth)

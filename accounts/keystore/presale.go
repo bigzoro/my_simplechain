@@ -25,9 +25,9 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/bigzoro/my_simplechain/accounts"
+	"github.com/bigzoro/my_simplechain/crypto"
 	"github.com/pborman/uuid"
-	"github.com/simplechain-org/go-simplechain/accounts"
-	"github.com/simplechain-org/go-simplechain/crypto"
 	"golang.org/x/crypto/pbkdf2"
 )
 

@@ -24,9 +24,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/simplechain-org/go-simplechain/common/hexutil"
-	"github.com/simplechain-org/go-simplechain/internal/ethapi"
-	"github.com/simplechain-org/go-simplechain/log"
+	"github.com/bigzoro/my_simplechain/common/hexutil"
+	"github.com/bigzoro/my_simplechain/internal/ethapi"
+	"github.com/bigzoro/my_simplechain/log"
 	"golang.org/x/crypto/ssh/terminal"
 )
 

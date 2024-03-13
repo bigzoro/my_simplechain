@@ -27,19 +27,19 @@ import (
 	"testing"
 	"time"
 
-	"github.com/simplechain-org/go-simplechain/accounts"
-	"github.com/simplechain-org/go-simplechain/accounts/keystore"
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/common/hexutil"
-	"github.com/simplechain-org/go-simplechain/core/types"
-	"github.com/simplechain-org/go-simplechain/internal/ethapi"
-	"github.com/simplechain-org/go-simplechain/rlp"
-	"github.com/simplechain-org/go-simplechain/signer/core"
-	"github.com/simplechain-org/go-simplechain/signer/fourbyte"
-	"github.com/simplechain-org/go-simplechain/signer/storage"
+	"github.com/bigzoro/my_simplechain/accounts"
+	"github.com/bigzoro/my_simplechain/accounts/keystore"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/common/hexutil"
+	"github.com/bigzoro/my_simplechain/core/types"
+	"github.com/bigzoro/my_simplechain/internal/ethapi"
+	"github.com/bigzoro/my_simplechain/rlp"
+	"github.com/bigzoro/my_simplechain/signer/core"
+	"github.com/bigzoro/my_simplechain/signer/fourbyte"
+	"github.com/bigzoro/my_simplechain/signer/storage"
 )
 
-//Used for testing
+// Used for testing
 type headlessUi struct {
 	approveCh chan string // to send approve/deny
 	inputCh   chan string // to send password

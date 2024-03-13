@@ -3,8 +3,8 @@ package backend
 import (
 	"os"
 
-	"github.com/simplechain-org/go-simplechain/consensus/raft"
-	"github.com/simplechain-org/go-simplechain/log"
+	"github.com/bigzoro/my_simplechain/consensus/raft"
+	"github.com/bigzoro/my_simplechain/log"
 
 	"github.com/coreos/etcd/raft/raftpb"
 	"github.com/coreos/etcd/wal"

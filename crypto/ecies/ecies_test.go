@@ -39,7 +39,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/simplechain-org/go-simplechain/crypto"
+	"github.com/bigzoro/my_simplechain/crypto"
 )
 
 // Ensure the KDF generates appropriately sized keys.

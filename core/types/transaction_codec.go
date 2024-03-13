@@ -23,8 +23,8 @@ import (
 	"runtime"
 	"unsafe"
 
+	"github.com/bigzoro/my_simplechain/rlp"
 	"github.com/exascience/pargo/parallel"
-	"github.com/simplechain-org/go-simplechain/rlp"
 )
 
 const OFFLEN = int(unsafe.Sizeof(uint32(0)))

@@ -17,7 +17,7 @@
 package vm
 
 import (
-	"github.com/simplechain-org/go-simplechain/params"
+	"github.com/bigzoro/my_simplechain/params"
 )
 
 func minSwapStack(n int) int {

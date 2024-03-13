@@ -19,7 +19,7 @@ package trie
 import (
 	"fmt"
 
-	"github.com/simplechain-org/go-simplechain/common"
+	"github.com/bigzoro/my_simplechain/common"
 )
 
 // MissingNodeError is returned by the trie functions (TryGet, TryUpdate, TryDelete)

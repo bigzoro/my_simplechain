@@ -20,9 +20,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/common/hexutil"
-	"github.com/simplechain-org/go-simplechain/signer/core"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/common/hexutil"
+	"github.com/bigzoro/my_simplechain/signer/core"
 )
 
 func mixAddr(a string) (*common.MixedcaseAddress, error) {

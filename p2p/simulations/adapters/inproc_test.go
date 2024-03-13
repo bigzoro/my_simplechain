@@ -23,7 +23,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/simplechain-org/go-simplechain/p2p/simulations/pipes"
+	"github.com/bigzoro/my_simplechain/p2p/simulations/pipes"
 )
 
 func TestTCPPipe(t *testing.T) {

@@ -21,8 +21,8 @@ import (
 	"os"
 	"testing"
 
+	"github.com/bigzoro/my_simplechain/internal/cmdtest"
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/simplechain-org/go-simplechain/internal/cmdtest"
 )
 
 type testEthkey struct {

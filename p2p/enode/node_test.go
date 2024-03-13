@@ -24,8 +24,8 @@ import (
 	"testing"
 	"testing/quick"
 
-	"github.com/simplechain-org/go-simplechain/p2p/enr"
-	"github.com/simplechain-org/go-simplechain/rlp"
+	"github.com/bigzoro/my_simplechain/p2p/enr"
+	"github.com/bigzoro/my_simplechain/rlp"
 	"github.com/stretchr/testify/assert"
 )
 

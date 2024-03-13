@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/simplechain-org/go-simplechain/common"
+	"github.com/bigzoro/my_simplechain/common"
 )
 
 func TestHexOrDecimal256(t *testing.T) {

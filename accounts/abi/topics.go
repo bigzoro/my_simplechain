@@ -23,8 +23,8 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/crypto"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/crypto"
 )
 
 // MakeTopics converts a filter query argument list into a filter topic set.

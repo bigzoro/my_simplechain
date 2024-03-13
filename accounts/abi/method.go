@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/simplechain-org/go-simplechain/crypto"
+	"github.com/bigzoro/my_simplechain/crypto"
 )
 
 // FunctionType represents different types of functions a contract might have.
@@ -165,4 +165,3 @@ func (method Method) IsConstant() bool {
 func (method Method) IsPayable() bool {
 	return method.StateMutability == "payable" || method.Payable
 }
-

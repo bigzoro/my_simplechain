@@ -21,8 +21,8 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/simplechain-org/go-simplechain/accounts/keystore"
-	"github.com/simplechain-org/go-simplechain/cmd/utils"
+	"github.com/bigzoro/my_simplechain/accounts/keystore"
+	"github.com/bigzoro/my_simplechain/cmd/utils"
 	"gopkg.in/urfave/cli.v1"
 )
 

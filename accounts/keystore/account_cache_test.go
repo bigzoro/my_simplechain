@@ -27,10 +27,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/bigzoro/my_simplechain/accounts"
+	"github.com/bigzoro/my_simplechain/common"
 	"github.com/cespare/cp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/simplechain-org/go-simplechain/accounts"
-	"github.com/simplechain-org/go-simplechain/common"
 )
 
 var (

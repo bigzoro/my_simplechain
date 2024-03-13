@@ -23,14 +23,14 @@ import (
 	"net"
 	"sync"
 
+	"github.com/bigzoro/my_simplechain/event"
+	"github.com/bigzoro/my_simplechain/log"
+	"github.com/bigzoro/my_simplechain/node"
+	"github.com/bigzoro/my_simplechain/p2p"
+	"github.com/bigzoro/my_simplechain/p2p/enode"
+	"github.com/bigzoro/my_simplechain/p2p/simulations/pipes"
+	"github.com/bigzoro/my_simplechain/rpc"
 	"github.com/gorilla/websocket"
-	"github.com/simplechain-org/go-simplechain/event"
-	"github.com/simplechain-org/go-simplechain/log"
-	"github.com/simplechain-org/go-simplechain/node"
-	"github.com/simplechain-org/go-simplechain/p2p"
-	"github.com/simplechain-org/go-simplechain/p2p/enode"
-	"github.com/simplechain-org/go-simplechain/p2p/simulations/pipes"
-	"github.com/simplechain-org/go-simplechain/rpc"
 )
 
 // SimAdapter is a NodeAdapter which creates in-memory simulation nodes and

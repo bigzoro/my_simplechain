@@ -23,10 +23,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/core/types"
-	"github.com/simplechain-org/go-simplechain/rlp"
-	whisper "github.com/simplechain-org/go-simplechain/whisper/whisperv6"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/core/types"
+	"github.com/bigzoro/my_simplechain/rlp"
+	whisper "github.com/bigzoro/my_simplechain/whisper/whisperv6"
 )
 
 // A Nonce is a 64-bit hash which proves (combined with the mix-hash) that
@@ -209,7 +209,7 @@ func NewTransaction(nonce int64, to *Address, amount *BigInt, gasLimit int64, ga
 	if to == nil {
 		return &Transaction{types.NewContractCreation(uint64(nonce), amount.bigint, uint64(gasLimit), gasPrice.bigint, common.CopyBytes(data))}
 	}
-	return &Transaction{types.NewTransaction(uint64(nonce), to.address, amount.bigint, uint64(gasLimit),  gasPrice.bigint, common.CopyBytes(data))}
+	return &Transaction{types.NewTransaction(uint64(nonce), to.address, amount.bigint, uint64(gasLimit), gasPrice.bigint, common.CopyBytes(data))}
 }
 
 // NewTransactionFromRLP parses a transaction from an RLP data dump.

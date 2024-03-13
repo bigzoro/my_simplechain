@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/crypto"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/crypto"
 )
 
 // Event is an event potentially triggered by the EVM's LOG mechanism. The Event

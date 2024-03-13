@@ -17,7 +17,7 @@
 package core
 
 import (
-	"github.com/simplechain-org/go-simplechain/core/types"
+	"github.com/bigzoro/my_simplechain/core/types"
 )
 
 // senderCacher is a concurrent transaction sender recoverer and cacher.

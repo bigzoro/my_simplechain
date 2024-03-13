@@ -3,9 +3,9 @@ package access_contoller
 import (
 	"crypto/x509/pkix"
 	"encoding/asn1"
-	"my_simplechain/core/access_contoller/crypto"
-	"my_simplechain/core/access_contoller/crypto/hash"
-	bcx509 "my_simplechain/core/access_contoller/crypto/x509"
+	"github.com/bigzoro/my_simplechain/core/access_contoller/crypto"
+	"github.com/bigzoro/my_simplechain/core/access_contoller/crypto/hash"
+	bcx509 "github.com/bigzoro/my_simplechain/core/access_contoller/crypto/x509"
 )
 
 type subjectPublicKeyInfo struct {

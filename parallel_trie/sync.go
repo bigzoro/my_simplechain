@@ -20,11 +20,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/simplechain-org/go-simplechain/log"
+	"github.com/bigzoro/my_simplechain/log"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/common/prque"
-	"github.com/simplechain-org/go-simplechain/ethdb"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/common/prque"
+	"github.com/bigzoro/my_simplechain/ethdb"
 )
 
 // ErrNotRequested is returned by the trie sync when it's requested to process a

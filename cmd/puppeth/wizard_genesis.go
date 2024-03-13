@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"github.com/simplechain-org/go-simplechain/core/types"
-	"github.com/simplechain-org/go-simplechain/rlp"
+	"github.com/bigzoro/my_simplechain/core/types"
+	"github.com/bigzoro/my_simplechain/rlp"
 	"io"
 	"io/ioutil"
 	"math/big"
@@ -31,10 +31,10 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/core"
-	"github.com/simplechain-org/go-simplechain/log"
-	"github.com/simplechain-org/go-simplechain/params"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/core"
+	"github.com/bigzoro/my_simplechain/log"
+	"github.com/bigzoro/my_simplechain/params"
 )
 
 // makeGenesis creates a new genesis struct based on some user input.

@@ -8,7 +8,7 @@ SPDX-License-Identifier: Apache-2.0
 package sm2
 
 import (
-	"github.com/simplechain-org/go-simplechain/core/access_contoller/opencrypto/tencentsm/tencentsm"
+	"github.com/bigzoro/my_simplechain/core/access_contoller/opencrypto/tencentsm/tencentsm"
 )
 
 const BIG_NUM_SIZE = 64

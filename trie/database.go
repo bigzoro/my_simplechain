@@ -25,11 +25,11 @@ import (
 	"time"
 
 	"github.com/VictoriaMetrics/fastcache"
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/ethdb"
-	"github.com/simplechain-org/go-simplechain/log"
-	"github.com/simplechain-org/go-simplechain/metrics"
-	"github.com/simplechain-org/go-simplechain/rlp"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/ethdb"
+	"github.com/bigzoro/my_simplechain/log"
+	"github.com/bigzoro/my_simplechain/metrics"
+	"github.com/bigzoro/my_simplechain/rlp"
 )
 
 var (

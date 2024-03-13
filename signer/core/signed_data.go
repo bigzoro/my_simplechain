@@ -30,15 +30,15 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/simplechain-org/go-simplechain/accounts"
-	"github.com/simplechain-org/go-simplechain/accounts/abi"
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/common/hexutil"
-	"github.com/simplechain-org/go-simplechain/common/math"
-	"github.com/simplechain-org/go-simplechain/consensus/clique"
-	"github.com/simplechain-org/go-simplechain/core/types"
-	"github.com/simplechain-org/go-simplechain/crypto"
-	"github.com/simplechain-org/go-simplechain/rlp"
+	"github.com/bigzoro/my_simplechain/accounts"
+	"github.com/bigzoro/my_simplechain/accounts/abi"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/common/hexutil"
+	"github.com/bigzoro/my_simplechain/common/math"
+	"github.com/bigzoro/my_simplechain/consensus/clique"
+	"github.com/bigzoro/my_simplechain/core/types"
+	"github.com/bigzoro/my_simplechain/crypto"
+	"github.com/bigzoro/my_simplechain/rlp"
 )
 
 type SigFormat struct {

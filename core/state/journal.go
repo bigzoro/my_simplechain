@@ -19,7 +19,7 @@ package state
 import (
 	"math/big"
 
-	"github.com/simplechain-org/go-simplechain/common"
+	"github.com/bigzoro/my_simplechain/common"
 )
 
 // journalEntry is a modification entry in the state change journal that can be

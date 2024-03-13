@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/simplechain-org/go-simplechain/p2p/enode"
+	"github.com/bigzoro/my_simplechain/p2p/enode"
 )
 
 func TestMocker(t *testing.T) {

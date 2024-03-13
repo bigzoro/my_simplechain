@@ -19,10 +19,10 @@ package state
 import (
 	"bytes"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/ethdb"
-	"github.com/simplechain-org/go-simplechain/rlp"
-	"github.com/simplechain-org/go-simplechain/trie"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/ethdb"
+	"github.com/bigzoro/my_simplechain/rlp"
+	"github.com/bigzoro/my_simplechain/trie"
 )
 
 // NewStateSync create a new state trie download scheduler.

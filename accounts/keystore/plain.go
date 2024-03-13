@@ -19,11 +19,11 @@ package keystore
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/simplechain-org/go-simplechain/accounts"
+	"github.com/bigzoro/my_simplechain/accounts"
 	"os"
 	"path/filepath"
 
-	"github.com/simplechain-org/go-simplechain/common"
+	"github.com/bigzoro/my_simplechain/common"
 )
 
 type keyStorePlain struct {

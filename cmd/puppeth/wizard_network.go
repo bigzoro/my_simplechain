@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/simplechain-org/go-simplechain/log"
+	"github.com/bigzoro/my_simplechain/log"
 )
 
 // manageServers displays a list of servers the user can disconnect from, and an

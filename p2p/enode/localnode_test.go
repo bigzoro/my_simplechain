@@ -21,8 +21,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/simplechain-org/go-simplechain/crypto"
-	"github.com/simplechain-org/go-simplechain/p2p/enr"
+	"github.com/bigzoro/my_simplechain/crypto"
+	"github.com/bigzoro/my_simplechain/p2p/enr"
 	"github.com/stretchr/testify/assert"
 )
 

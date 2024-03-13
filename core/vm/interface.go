@@ -19,8 +19,8 @@ package vm
 import (
 	"math/big"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/core/types"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/core/types"
 )
 
 // StateDB is an EVM database for full state querying.

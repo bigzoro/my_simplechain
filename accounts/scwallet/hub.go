@@ -41,11 +41,11 @@ import (
 	"sync"
 	"time"
 
+	"github.com/bigzoro/my_simplechain/accounts"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/event"
+	"github.com/bigzoro/my_simplechain/log"
 	pcsc "github.com/gballet/go-libpcsclite"
-	"github.com/simplechain-org/go-simplechain/accounts"
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/event"
-	"github.com/simplechain-org/go-simplechain/log"
 )
 
 // Scheme is the URI prefix for smartcard wallets.

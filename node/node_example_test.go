@@ -20,19 +20,19 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/simplechain-org/go-simplechain/node"
-	"github.com/simplechain-org/go-simplechain/p2p"
-	"github.com/simplechain-org/go-simplechain/rpc"
+	"github.com/bigzoro/my_simplechain/node"
+	"github.com/bigzoro/my_simplechain/p2p"
+	"github.com/bigzoro/my_simplechain/rpc"
 )
 
 // SampleService is a trivial network service that can be attached to a node for
 // life cycle management.
 //
 // The following methods are needed to implement a node.Service:
-//  - Protocols() []p2p.Protocol - devp2p protocols the service can communicate on
-//  - APIs() []rpc.API           - api methods the service wants to expose on rpc channels
-//  - Start() error              - method invoked when the node is ready to start the service
-//  - Stop() error               - method invoked when the node terminates the service
+//   - Protocols() []p2p.Protocol - devp2p protocols the service can communicate on
+//   - APIs() []rpc.API           - api methods the service wants to expose on rpc channels
+//   - Start() error              - method invoked when the node is ready to start the service
+//   - Stop() error               - method invoked when the node terminates the service
 type SampleService struct{}
 
 func (s *SampleService) Protocols() []p2p.Protocol { return nil }

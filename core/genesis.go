@@ -25,17 +25,17 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/common/hexutil"
-	"github.com/simplechain-org/go-simplechain/common/math"
-	"github.com/simplechain-org/go-simplechain/core/rawdb"
-	"github.com/simplechain-org/go-simplechain/core/state"
-	"github.com/simplechain-org/go-simplechain/core/types"
-	"github.com/simplechain-org/go-simplechain/crypto"
-	"github.com/simplechain-org/go-simplechain/ethdb"
-	"github.com/simplechain-org/go-simplechain/log"
-	"github.com/simplechain-org/go-simplechain/params"
-	"github.com/simplechain-org/go-simplechain/rlp"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/common/hexutil"
+	"github.com/bigzoro/my_simplechain/common/math"
+	"github.com/bigzoro/my_simplechain/core/rawdb"
+	"github.com/bigzoro/my_simplechain/core/state"
+	"github.com/bigzoro/my_simplechain/core/types"
+	"github.com/bigzoro/my_simplechain/crypto"
+	"github.com/bigzoro/my_simplechain/ethdb"
+	"github.com/bigzoro/my_simplechain/log"
+	"github.com/bigzoro/my_simplechain/params"
+	"github.com/bigzoro/my_simplechain/rlp"
 )
 
 //go:generate gencodec -type Genesis -field-override genesisSpecMarshaling -out gen_genesis.go
@@ -141,10 +141,10 @@ func (e *GenesisMismatchError) Error() string {
 // SetupGenesisBlock writes or updates the genesis block in db.
 // The block that will be used is:
 //
-//                          genesis == nil       genesis != nil
-//                       +------------------------------------------
-//     db has no genesis |  main-net default  |  genesis
-//     db has genesis    |  from DB           |  genesis (if compatible)
+//	                     genesis == nil       genesis != nil
+//	                  +------------------------------------------
+//	db has no genesis |  main-net default  |  genesis
+//	db has genesis    |  from DB           |  genesis (if compatible)
 //
 // The stored chain configuration will be updated if it is compatible (i.e. does not
 // specify a fork block below the local head block). In case of a conflict, the
@@ -332,17 +332,19 @@ func GenesisBlockForTesting(db ethdb.Database, addr common.Address, balance *big
 	return g.MustCommit(db)
 }
 
-//// DefaultGenesisBlock returns the Ethereum main net genesis block.
-//func DefaultGenesisBlock() *Genesis {
-//	return &Genesis{
-//		Config:     params.MainnetChainConfig,
-//		Nonce:      66,
-//		ExtraData:  hexutil.MustDecode("0x11bbe8db4e347b4e8c937c1c8370e4b5ed33adb3db69cbdb7a38e1e50b1b82fa"),
-//		GasLimit:   5000,
-//		Difficulty: big.NewInt(1200),
-//		Alloc:      decodePrealloc(mainnetAllocData),
+// // DefaultGenesisBlock returns the Ethereum main net genesis block.
+//
+//	func DefaultGenesisBlock() *Genesis {
+//		return &Genesis{
+//			Config:     params.MainnetChainConfig,
+//			Nonce:      66,
+//			ExtraData:  hexutil.MustDecode("0x11bbe8db4e347b4e8c937c1c8370e4b5ed33adb3db69cbdb7a38e1e50b1b82fa"),
+//			GasLimit:   5000,
+//			Difficulty: big.NewInt(1200),
+//			Alloc:      decodePrealloc(mainnetAllocData),
+//		}
 //	}
-//}
+//
 // DefaultGenesisBlock returns the Ethereum main net genesis block.
 func DefaultGenesisBlock() *Genesis {
 	return &Genesis{

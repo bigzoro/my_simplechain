@@ -27,14 +27,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/simplechain-org/go-simplechain/common/mclock"
-	"github.com/simplechain-org/go-simplechain/crypto"
-	"github.com/simplechain-org/go-simplechain/ethdb"
-	"github.com/simplechain-org/go-simplechain/log"
-	"github.com/simplechain-org/go-simplechain/p2p"
-	"github.com/simplechain-org/go-simplechain/p2p/discv5"
-	"github.com/simplechain-org/go-simplechain/p2p/enode"
-	"github.com/simplechain-org/go-simplechain/rlp"
+	"github.com/bigzoro/my_simplechain/common/mclock"
+	"github.com/bigzoro/my_simplechain/crypto"
+	"github.com/bigzoro/my_simplechain/ethdb"
+	"github.com/bigzoro/my_simplechain/log"
+	"github.com/bigzoro/my_simplechain/p2p"
+	"github.com/bigzoro/my_simplechain/p2p/discv5"
+	"github.com/bigzoro/my_simplechain/p2p/enode"
+	"github.com/bigzoro/my_simplechain/rlp"
 )
 
 const (

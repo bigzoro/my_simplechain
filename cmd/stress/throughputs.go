@@ -1,4 +1,5 @@
-//+build sub,old
+//go:build sub && old
+// +build sub,old
 
 package main
 
@@ -17,10 +18,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/core/types"
-	"github.com/simplechain-org/go-simplechain/crypto"
-	"github.com/simplechain-org/go-simplechain/ethclient"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/core/types"
+	"github.com/bigzoro/my_simplechain/crypto"
+	"github.com/bigzoro/my_simplechain/ethclient"
 )
 
 const (

@@ -24,16 +24,16 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/simplechain-org/go-simplechain/consensus/hotstuff"
-	"github.com/simplechain-org/go-simplechain/consensus/pbft"
+	"github.com/bigzoro/my_simplechain/consensus/hotstuff"
+	"github.com/bigzoro/my_simplechain/consensus/pbft"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/consensus/ethash"
-	"github.com/simplechain-org/go-simplechain/core"
-	"github.com/simplechain-org/go-simplechain/eth/downloader"
-	"github.com/simplechain-org/go-simplechain/eth/gasprice"
-	"github.com/simplechain-org/go-simplechain/miner"
-	"github.com/simplechain-org/go-simplechain/params"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/consensus/ethash"
+	"github.com/bigzoro/my_simplechain/core"
+	"github.com/bigzoro/my_simplechain/eth/downloader"
+	"github.com/bigzoro/my_simplechain/eth/gasprice"
+	"github.com/bigzoro/my_simplechain/miner"
+	"github.com/bigzoro/my_simplechain/params"
 )
 
 // DefaultConfig contains default settings for use on the SimpleService main net.

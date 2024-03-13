@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/crypto"
-	whisper "github.com/simplechain-org/go-simplechain/whisper/whisperv6"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/crypto"
+	whisper "github.com/bigzoro/my_simplechain/whisper/whisperv6"
 )
 
 const powRequirement = 0.00001

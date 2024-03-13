@@ -2,7 +2,7 @@ package main
 
 import (
 	"context"
-	"github.com/simplechain-org/go-simplechain/cmd/dummytx/config"
+	"github.com/bigzoro/my_simplechain/cmd/dummytx/config"
 	"log"
 	"os"
 	"strconv"

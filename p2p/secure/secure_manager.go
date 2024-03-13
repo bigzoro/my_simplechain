@@ -7,10 +7,10 @@ import (
 	"encoding/asn1"
 	"errors"
 	"fmt"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/log"
+	"github.com/bigzoro/my_simplechain/rlp"
 	mapset "github.com/deckarep/golang-set"
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/log"
-	"github.com/simplechain-org/go-simplechain/rlp"
 	"golang.org/x/crypto/sha3"
 	"io/ioutil"
 	"math/big"
@@ -47,7 +47,7 @@ func rlpHash(x interface{}) (h common.Hash) {
 	return h
 }
 
-//设置吊销证书
+// 设置吊销证书
 func (s *SecureManager) setupCRLs(conf *SecureConfig) error {
 	s.crlHashes = mapset.NewSet()
 	// setup the CRL (if present)
@@ -124,7 +124,7 @@ func PathExists(path string) bool {
 	return false
 }
 
-//包括根证书和根证书
+// 包括根证书和根证书
 func (s *SecureManager) setupTLSCAs(conf *SecureConfig) error {
 	opts := &x509.VerifyOptions{Roots: x509.NewCertPool(), Intermediates: x509.NewCertPool()}
 	// Load TLS root and intermediate CA identities

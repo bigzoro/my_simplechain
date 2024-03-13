@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/simplechain-org/go-simplechain/common/mclock"
-	"github.com/simplechain-org/go-simplechain/core/rawdb"
-	"github.com/simplechain-org/go-simplechain/p2p/enode"
+	"github.com/bigzoro/my_simplechain/common/mclock"
+	"github.com/bigzoro/my_simplechain/core/rawdb"
+	"github.com/bigzoro/my_simplechain/p2p/enode"
 )
 
 func TestClientPoolL10C100Free(t *testing.T) {

@@ -26,9 +26,9 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/bigzoro/my_simplechain/log"
 	mapset "github.com/deckarep/golang-set"
 	"github.com/gorilla/websocket"
-	"github.com/simplechain-org/go-simplechain/log"
 )
 
 const (

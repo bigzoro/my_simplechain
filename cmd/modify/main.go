@@ -2,10 +2,10 @@ package main
 
 import (
 	"flag"
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/core/rawdb"
-	"github.com/simplechain-org/go-simplechain/core/state"
-	ethdb "github.com/simplechain-org/go-simplechain/ethdb/leveldb"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/core/rawdb"
+	"github.com/bigzoro/my_simplechain/core/state"
+	ethdb "github.com/bigzoro/my_simplechain/ethdb/leveldb"
 	"log"
 )
 

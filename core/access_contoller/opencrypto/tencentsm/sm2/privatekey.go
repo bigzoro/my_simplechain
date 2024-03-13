@@ -11,13 +11,13 @@ import (
 	"bytes"
 	"crypto"
 	"encoding/pem"
-	"github.com/simplechain-org/go-simplechain/core/access_contoller/crypto/hash"
-	"github.com/simplechain-org/go-simplechain/core/access_contoller/opencrypto/tencentsm/tencentsm"
-	"github.com/simplechain-org/go-simplechain/core/access_contoller/opencrypto/utils"
+	"github.com/bigzoro/my_simplechain/core/access_contoller/crypto/hash"
+	"github.com/bigzoro/my_simplechain/core/access_contoller/opencrypto/tencentsm/tencentsm"
+	"github.com/bigzoro/my_simplechain/core/access_contoller/opencrypto/utils"
 	"math/big"
 
+	bccrypto "github.com/bigzoro/my_simplechain/core/access_contoller/crypto"
 	"github.com/pkg/errors"
-	bccrypto "github.com/simplechain-org/go-simplechain/core/access_contoller/crypto"
 )
 
 type PrivateKey struct {

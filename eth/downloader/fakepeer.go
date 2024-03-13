@@ -19,11 +19,11 @@ package downloader
 import (
 	"math/big"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/core"
-	"github.com/simplechain-org/go-simplechain/core/rawdb"
-	"github.com/simplechain-org/go-simplechain/core/types"
-	"github.com/simplechain-org/go-simplechain/ethdb"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/core"
+	"github.com/bigzoro/my_simplechain/core/rawdb"
+	"github.com/bigzoro/my_simplechain/core/types"
+	"github.com/bigzoro/my_simplechain/ethdb"
 )
 
 // FakePeer is a mock downloader peer that operates on a local database instance

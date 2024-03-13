@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/simplechain-org/go-simplechain/log"
+	"github.com/bigzoro/my_simplechain/log"
 )
 
 // deployEthstats queries the user for various input on deploying an ethstats

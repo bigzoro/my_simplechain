@@ -26,7 +26,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/simplechain-org/go-simplechain/common/math"
+	"github.com/bigzoro/my_simplechain/common/math"
 	"gopkg.in/urfave/cli.v1"
 )
 

@@ -3,11 +3,11 @@ package utils
 import (
 	"strings"
 
+	"github.com/bigzoro/my_simplechain/core"
+	"github.com/bigzoro/my_simplechain/eth"
+	"github.com/bigzoro/my_simplechain/node"
+	whisper "github.com/bigzoro/my_simplechain/whisper/whisperv6"
 	pcsclite "github.com/gballet/go-libpcsclite"
-	"github.com/simplechain-org/go-simplechain/core"
-	"github.com/simplechain-org/go-simplechain/eth"
-	"github.com/simplechain-org/go-simplechain/node"
-	whisper "github.com/simplechain-org/go-simplechain/whisper/whisperv6"
 	"gopkg.in/urfave/cli.v1"
 )
 

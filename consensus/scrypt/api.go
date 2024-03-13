@@ -18,9 +18,9 @@ package scrypt
 import (
 	"errors"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/common/hexutil"
-	"github.com/simplechain-org/go-simplechain/core/types"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/common/hexutil"
+	"github.com/bigzoro/my_simplechain/core/types"
 )
 
 var errScryptStopped = errors.New("scrypt stopped")
@@ -34,9 +34,10 @@ type API struct {
 // GetWork returns a work package for external miner.
 //
 // The work package consists of 3 strings:
-//   result[0] - 32 bytes hex encoded current block header pow-hash
-//   result[1] - 32 bytes hex encoded boundary condition ("target"), 2^256/difficulty
-//   result[2] - hex encoded block number
+//
+//	result[0] - 32 bytes hex encoded current block header pow-hash
+//	result[1] - 32 bytes hex encoded boundary condition ("target"), 2^256/difficulty
+//	result[2] - hex encoded block number
 func (api *API) GetWork() ([3]string, error) {
 	if api.powScrypt.config.PowMode != ModeNormal && api.powScrypt.config.PowMode != ModeTest {
 		return [3]string{}, errors.New("not supported")

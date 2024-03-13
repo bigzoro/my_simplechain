@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/simplechain-org/go-simplechain/core/asm"
+	"github.com/bigzoro/my_simplechain/core/asm"
 )
 
 func Compile(fn string, src []byte, debug bool) (string, error) {

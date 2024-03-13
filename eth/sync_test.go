@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/simplechain-org/go-simplechain/eth/downloader"
-	"github.com/simplechain-org/go-simplechain/p2p"
-	"github.com/simplechain-org/go-simplechain/p2p/enode"
+	"github.com/bigzoro/my_simplechain/eth/downloader"
+	"github.com/bigzoro/my_simplechain/p2p"
+	"github.com/bigzoro/my_simplechain/p2p/enode"
 )
 
 // Tests that fast sync gets disabled as soon as a real block is successfully

@@ -1,10 +1,8 @@
 package access_contoller
 
 import (
-	//bcx509 "github.com/simplechain-org/go-simplechain/core/access_contoller/crypto/x509"
-	//"github.com/simplechain-org/go-simplechain/params"
-	bcx509 "my_simplechain/core/access_contoller/crypto/x509"
-	"my_simplechain/params"
+	bcx509 "github.com/bigzoro/my_simplechain/core/access_contoller/crypto/x509"
+	"github.com/bigzoro/my_simplechain/params"
 )
 
 type ResourcePolicy struct {

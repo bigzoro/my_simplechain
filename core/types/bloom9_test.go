@@ -54,7 +54,7 @@ func TestBloom(t *testing.T) {
 import (
 	"testing"
 
-	"github.com/simplechain-org/go-simplechain/core/state"
+	"github.com/bigzoro/my_simplechain/core/state"
 )
 
 func TestBloom9(t *testing.T) {

@@ -19,7 +19,7 @@ package vm
 import (
 	"fmt"
 
-	"github.com/simplechain-org/go-simplechain/params"
+	"github.com/bigzoro/my_simplechain/params"
 )
 
 // EnableEIP enables the given EIP on the config.

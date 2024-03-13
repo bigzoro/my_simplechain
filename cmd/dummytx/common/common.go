@@ -1,7 +1,7 @@
 package common
 
 import (
-	"github.com/simplechain-org/go-simplechain/accounts/keystore"
+	"github.com/bigzoro/my_simplechain/accounts/keystore"
 	"io/ioutil"
 	"strings"
 )

@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/crypto"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/crypto"
 )
 
 func TestNetwork_Lookup(t *testing.T) {

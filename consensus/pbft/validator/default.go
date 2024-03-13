@@ -22,8 +22,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/consensus/pbft"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/consensus/pbft"
 )
 
 type defaultValidator struct {

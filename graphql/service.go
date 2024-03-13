@@ -21,12 +21,12 @@ import (
 	"net"
 	"net/http"
 
+	"github.com/bigzoro/my_simplechain/internal/ethapi"
+	"github.com/bigzoro/my_simplechain/log"
+	"github.com/bigzoro/my_simplechain/p2p"
+	"github.com/bigzoro/my_simplechain/rpc"
 	"github.com/graph-gophers/graphql-go"
 	"github.com/graph-gophers/graphql-go/relay"
-	"github.com/simplechain-org/go-simplechain/internal/ethapi"
-	"github.com/simplechain-org/go-simplechain/log"
-	"github.com/simplechain-org/go-simplechain/p2p"
-	"github.com/simplechain-org/go-simplechain/rpc"
 )
 
 // Service encapsulates a GraphQL service.

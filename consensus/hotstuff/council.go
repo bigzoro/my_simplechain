@@ -8,14 +8,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/consensus"
-	bls "github.com/simplechain-org/go-simplechain/consensus/hotstuff/bls12-381"
-	hots "github.com/simplechain-org/go-simplechain/consensus/hotstuff/common"
-	hotsptcl "github.com/simplechain-org/go-simplechain/consensus/hotstuff/hotsptcl"
-	"github.com/simplechain-org/go-simplechain/core/types"
-	logger "github.com/simplechain-org/go-simplechain/log"
-	"github.com/simplechain-org/go-simplechain/p2p/enode"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/consensus"
+	bls "github.com/bigzoro/my_simplechain/consensus/hotstuff/bls12-381"
+	hots "github.com/bigzoro/my_simplechain/consensus/hotstuff/common"
+	hotsptcl "github.com/bigzoro/my_simplechain/consensus/hotstuff/hotsptcl"
+	"github.com/bigzoro/my_simplechain/core/types"
+	logger "github.com/bigzoro/my_simplechain/log"
+	"github.com/bigzoro/my_simplechain/p2p/enode"
 )
 
 var (

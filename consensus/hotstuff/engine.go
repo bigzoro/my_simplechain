@@ -4,13 +4,13 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/common/hexutil"
-	"github.com/simplechain-org/go-simplechain/consensus"
-	"github.com/simplechain-org/go-simplechain/core/state"
-	"github.com/simplechain-org/go-simplechain/core/types"
-	"github.com/simplechain-org/go-simplechain/rlp"
-	"github.com/simplechain-org/go-simplechain/rpc"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/common/hexutil"
+	"github.com/bigzoro/my_simplechain/consensus"
+	"github.com/bigzoro/my_simplechain/core/state"
+	"github.com/bigzoro/my_simplechain/core/types"
+	"github.com/bigzoro/my_simplechain/rlp"
+	"github.com/bigzoro/my_simplechain/rpc"
 	"golang.org/x/crypto/sha3"
 )
 

@@ -19,7 +19,7 @@ package bloombits
 import (
 	"errors"
 
-	"github.com/simplechain-org/go-simplechain/core/types"
+	"github.com/bigzoro/my_simplechain/core/types"
 )
 
 var (

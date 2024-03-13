@@ -21,8 +21,8 @@ package geth
 import (
 	"math/big"
 
-	"github.com/simplechain-org/go-simplechain/core/types"
-	"github.com/simplechain-org/go-simplechain/ethclient"
+	"github.com/bigzoro/my_simplechain/core/types"
+	"github.com/bigzoro/my_simplechain/ethclient"
 )
 
 // EthereumClient provides access to the Ethereum APIs.

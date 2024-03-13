@@ -30,8 +30,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/simplechain-org/go-simplechain/accounts/keystore"
-	"github.com/simplechain-org/go-simplechain/core/types"
+	"github.com/bigzoro/my_simplechain/accounts/keystore"
+	"github.com/bigzoro/my_simplechain/core/types"
 )
 
 // Tests that the account management snippets work correctly.

@@ -22,11 +22,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/simplechain-org/go-simplechain/accounts/abi/bind"
-	"github.com/simplechain-org/go-simplechain/core"
-	"github.com/simplechain-org/go-simplechain/crypto"
-	"github.com/simplechain-org/go-simplechain/light"
-	"github.com/simplechain-org/go-simplechain/params"
+	"github.com/bigzoro/my_simplechain/accounts/abi/bind"
+	"github.com/bigzoro/my_simplechain/core"
+	"github.com/bigzoro/my_simplechain/crypto"
+	"github.com/bigzoro/my_simplechain/light"
+	"github.com/bigzoro/my_simplechain/params"
 )
 
 // Test light syncing which will download all headers from genesis.

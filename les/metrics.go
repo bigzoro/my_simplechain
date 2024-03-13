@@ -17,8 +17,8 @@
 package les
 
 import (
-	"github.com/simplechain-org/go-simplechain/metrics"
-	"github.com/simplechain-org/go-simplechain/p2p"
+	"github.com/bigzoro/my_simplechain/metrics"
+	"github.com/bigzoro/my_simplechain/p2p"
 )
 
 var (

@@ -21,13 +21,13 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/consensus/ethash"
+	"github.com/bigzoro/my_simplechain/core/rawdb"
+	"github.com/bigzoro/my_simplechain/core/vm"
+	"github.com/bigzoro/my_simplechain/ethdb"
+	"github.com/bigzoro/my_simplechain/params"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/consensus/ethash"
-	"github.com/simplechain-org/go-simplechain/core/rawdb"
-	"github.com/simplechain-org/go-simplechain/core/vm"
-	"github.com/simplechain-org/go-simplechain/ethdb"
-	"github.com/simplechain-org/go-simplechain/params"
 )
 
 func TestDefaultGenesisBlock(t *testing.T) {

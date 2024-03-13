@@ -19,8 +19,8 @@ package trie
 import (
 	"testing"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/ethdb/memorydb"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/ethdb/memorydb"
 )
 
 // Tests that the trie database returns a missing trie node error if attempting

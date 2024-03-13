@@ -22,7 +22,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/simplechain-org/go-simplechain/common"
+	"github.com/bigzoro/my_simplechain/common"
 )
 
 // Interface represents a wrapped version of Go's interface{}, with the capacity

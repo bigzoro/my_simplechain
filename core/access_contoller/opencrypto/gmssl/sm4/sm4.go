@@ -11,10 +11,10 @@ import (
 	"crypto/rand"
 	"encoding/hex"
 	"fmt"
-	"github.com/simplechain-org/go-simplechain/core/access_contoller/crypto"
-	"github.com/simplechain-org/go-simplechain/core/access_contoller/crypto/sym/modes"
-	"github.com/simplechain-org/go-simplechain/core/access_contoller/opencrypto/gmssl/gmssl"
-	"github.com/simplechain-org/go-simplechain/core/access_contoller/opencrypto/utils"
+	"github.com/bigzoro/my_simplechain/core/access_contoller/crypto"
+	"github.com/bigzoro/my_simplechain/core/access_contoller/crypto/sym/modes"
+	"github.com/bigzoro/my_simplechain/core/access_contoller/opencrypto/gmssl/gmssl"
+	"github.com/bigzoro/my_simplechain/core/access_contoller/opencrypto/utils"
 )
 
 var defaultSM4Opts = &crypto.EncOpts{

@@ -9,9 +9,8 @@ package hash
 
 import (
 	"crypto/sha256"
+	"github.com/bigzoro/my_simplechain/core/access_contoller/crypto"
 	"math"
-
-	"chainmaker.org/chainmaker/common/v2/crypto"
 )
 
 // nolint: deadcode,unused

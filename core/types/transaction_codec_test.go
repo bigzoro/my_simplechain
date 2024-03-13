@@ -19,11 +19,11 @@ package types
 import (
 	"bytes"
 	"crypto/rand"
-	"github.com/simplechain-org/go-simplechain/crypto"
+	"github.com/bigzoro/my_simplechain/crypto"
 	"math/big"
 	"testing"
 
-	"github.com/simplechain-org/go-simplechain/rlp"
+	"github.com/bigzoro/my_simplechain/rlp"
 )
 
 func TestOffsetTransactionsCodec(t *testing.T) {

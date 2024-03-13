@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/simplechain-org/go-simplechain/common"
+	"github.com/bigzoro/my_simplechain/common"
 )
 
 func BenchmarkCutOriginal(b *testing.B) {

@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/simplechain-org/go-simplechain/log"
+	"github.com/bigzoro/my_simplechain/log"
 )
 
 // deployExplorer creates a new block explorer based on some user input.

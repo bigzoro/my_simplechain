@@ -27,13 +27,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/simplechain-org/go-simplechain/accounts/abi/bind"
-	"github.com/simplechain-org/go-simplechain/accounts/abi/bind/backends"
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/contracts/checkpointoracle/contract"
-	"github.com/simplechain-org/go-simplechain/core"
-	"github.com/simplechain-org/go-simplechain/crypto"
-	"github.com/simplechain-org/go-simplechain/params"
+	"github.com/bigzoro/my_simplechain/accounts/abi/bind"
+	"github.com/bigzoro/my_simplechain/accounts/abi/bind/backends"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/contracts/checkpointoracle/contract"
+	"github.com/bigzoro/my_simplechain/core"
+	"github.com/bigzoro/my_simplechain/crypto"
+	"github.com/bigzoro/my_simplechain/params"
 )
 
 var (

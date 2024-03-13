@@ -19,15 +19,15 @@ package main
 import (
 	"strconv"
 
-	"github.com/simplechain-org/go-simplechain/accounts"
-	"github.com/simplechain-org/go-simplechain/accounts/abi/bind"
-	"github.com/simplechain-org/go-simplechain/accounts/external"
-	"github.com/simplechain-org/go-simplechain/cmd/utils"
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/contracts/checkpointoracle"
-	"github.com/simplechain-org/go-simplechain/ethclient"
-	"github.com/simplechain-org/go-simplechain/params"
-	"github.com/simplechain-org/go-simplechain/rpc"
+	"github.com/bigzoro/my_simplechain/accounts"
+	"github.com/bigzoro/my_simplechain/accounts/abi/bind"
+	"github.com/bigzoro/my_simplechain/accounts/external"
+	"github.com/bigzoro/my_simplechain/cmd/utils"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/contracts/checkpointoracle"
+	"github.com/bigzoro/my_simplechain/ethclient"
+	"github.com/bigzoro/my_simplechain/params"
+	"github.com/bigzoro/my_simplechain/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

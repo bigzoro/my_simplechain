@@ -34,10 +34,10 @@ import (
 	"net"
 	"time"
 
+	"github.com/bigzoro/my_simplechain/crypto"
+	"github.com/bigzoro/my_simplechain/crypto/ecies"
+	"github.com/bigzoro/my_simplechain/rlp"
 	"github.com/golang/snappy"
-	"github.com/simplechain-org/go-simplechain/crypto"
-	"github.com/simplechain-org/go-simplechain/crypto/ecies"
-	"github.com/simplechain-org/go-simplechain/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

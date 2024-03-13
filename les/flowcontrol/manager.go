@@ -22,8 +22,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/simplechain-org/go-simplechain/common/mclock"
-	"github.com/simplechain-org/go-simplechain/common/prque"
+	"github.com/bigzoro/my_simplechain/common/mclock"
+	"github.com/bigzoro/my_simplechain/common/prque"
 )
 
 // cmNodeFields are ClientNode fields used by the client manager

@@ -21,10 +21,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/simplechain-org/go-simplechain/core/forkid"
-	"github.com/simplechain-org/go-simplechain/p2p/enr"
-	"github.com/simplechain-org/go-simplechain/params"
-	"github.com/simplechain-org/go-simplechain/rlp"
+	"github.com/bigzoro/my_simplechain/core/forkid"
+	"github.com/bigzoro/my_simplechain/p2p/enr"
+	"github.com/bigzoro/my_simplechain/params"
+	"github.com/bigzoro/my_simplechain/rlp"
 	"gopkg.in/urfave/cli.v1"
 )
 

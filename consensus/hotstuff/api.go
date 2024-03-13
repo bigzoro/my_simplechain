@@ -5,11 +5,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/simplechain-org/go-simplechain/common/hexutil"
-	"github.com/simplechain-org/go-simplechain/consensus"
-	bls "github.com/simplechain-org/go-simplechain/consensus/hotstuff/bls12-381"
-	"github.com/simplechain-org/go-simplechain/consensus/hotstuff/common"
-	"github.com/simplechain-org/go-simplechain/rpc"
+	"github.com/bigzoro/my_simplechain/common/hexutil"
+	"github.com/bigzoro/my_simplechain/consensus"
+	bls "github.com/bigzoro/my_simplechain/consensus/hotstuff/bls12-381"
+	"github.com/bigzoro/my_simplechain/consensus/hotstuff/common"
+	"github.com/bigzoro/my_simplechain/rpc"
 )
 
 type replica struct {

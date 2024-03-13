@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/simplechain-org/go-simplechain/common/hexutil"
+	"github.com/bigzoro/my_simplechain/common/hexutil"
 )
 
 func TestTextHash(t *testing.T) {

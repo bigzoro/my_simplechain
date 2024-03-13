@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/simplechain-org/go-simplechain/common"
+	"github.com/bigzoro/my_simplechain/common"
 )
 
 // ContractRef is a reference to the contract's backing object

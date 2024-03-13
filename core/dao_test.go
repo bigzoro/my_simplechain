@@ -20,10 +20,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/simplechain-org/go-simplechain/consensus/ethash"
-	"github.com/simplechain-org/go-simplechain/core/rawdb"
-	"github.com/simplechain-org/go-simplechain/core/vm"
-	"github.com/simplechain-org/go-simplechain/params"
+	"github.com/bigzoro/my_simplechain/consensus/ethash"
+	"github.com/bigzoro/my_simplechain/core/rawdb"
+	"github.com/bigzoro/my_simplechain/core/vm"
+	"github.com/bigzoro/my_simplechain/params"
 )
 
 // Tests that DAO-fork enabled clients can properly filter out fork-commencing

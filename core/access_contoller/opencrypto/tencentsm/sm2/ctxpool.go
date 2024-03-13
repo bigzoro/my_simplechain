@@ -11,7 +11,7 @@ import "C"
 import (
 	"crypto/sha256"
 	"encoding/hex"
-	"github.com/simplechain-org/go-simplechain/core/access_contoller/opencrypto/tencentsm/tencentsm"
+	"github.com/bigzoro/my_simplechain/core/access_contoller/opencrypto/tencentsm/tencentsm"
 	"runtime"
 	"sync"
 

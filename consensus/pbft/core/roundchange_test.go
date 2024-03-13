@@ -20,9 +20,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/consensus/pbft"
-	"github.com/simplechain-org/go-simplechain/consensus/pbft/validator"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/consensus/pbft"
+	"github.com/bigzoro/my_simplechain/consensus/pbft/validator"
 )
 
 func TestRoundChangeSet(t *testing.T) {

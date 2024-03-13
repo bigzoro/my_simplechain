@@ -17,9 +17,9 @@
 package runtime
 
 import (
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/core"
-	"github.com/simplechain-org/go-simplechain/core/vm"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/core"
+	"github.com/bigzoro/my_simplechain/core/vm"
 )
 
 func NewEnv(cfg *Config) *vm.EVM {

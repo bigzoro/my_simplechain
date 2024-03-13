@@ -26,7 +26,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/simplechain-org/go-simplechain/rlp"
+	"github.com/bigzoro/my_simplechain/rlp"
 )
 
 var (

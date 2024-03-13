@@ -25,7 +25,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/simplechain-org/go-simplechain/log"
+	"github.com/bigzoro/my_simplechain/log"
 )
 
 // ethstatsDockerfile is the Dockerfile required to build an ethstats backend

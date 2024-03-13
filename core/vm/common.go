@@ -19,8 +19,8 @@ package vm
 import (
 	"math/big"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/common/math"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/common/math"
 )
 
 // calcMemSize64 calculates the required memory size, and returns

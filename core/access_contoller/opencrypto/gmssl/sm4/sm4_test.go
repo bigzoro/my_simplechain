@@ -8,7 +8,7 @@ SPDX-License-Identifier: Apache-2.0
 package sm4
 
 import (
-	"github.com/simplechain-org/go-simplechain/core/access_contoller/opencrypto/gmssl/gmssl"
+	"github.com/bigzoro/my_simplechain/core/access_contoller/opencrypto/gmssl/gmssl"
 	"github.com/stretchr/testify/assert"
 	"testing"
 )

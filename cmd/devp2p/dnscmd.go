@@ -25,11 +25,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/simplechain-org/go-simplechain/accounts/keystore"
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/console"
-	"github.com/simplechain-org/go-simplechain/p2p/dnsdisc"
-	"github.com/simplechain-org/go-simplechain/p2p/enode"
+	"github.com/bigzoro/my_simplechain/accounts/keystore"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/console"
+	"github.com/bigzoro/my_simplechain/p2p/dnsdisc"
+	"github.com/bigzoro/my_simplechain/p2p/enode"
 	cli "gopkg.in/urfave/cli.v1"
 )
 

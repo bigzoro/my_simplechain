@@ -18,19 +18,19 @@ package core
 
 import (
 	"crypto/ecdsa"
-	"github.com/simplechain-org/go-simplechain/consensus"
-	"github.com/simplechain-org/go-simplechain/core/types"
+	"github.com/bigzoro/my_simplechain/consensus"
+	"github.com/bigzoro/my_simplechain/core/types"
 	"math/big"
 	"time"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/consensus/pbft"
-	"github.com/simplechain-org/go-simplechain/consensus/pbft/validator"
-	"github.com/simplechain-org/go-simplechain/core/rawdb"
-	"github.com/simplechain-org/go-simplechain/crypto"
-	"github.com/simplechain-org/go-simplechain/ethdb"
-	"github.com/simplechain-org/go-simplechain/event"
-	elog "github.com/simplechain-org/go-simplechain/log"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/consensus/pbft"
+	"github.com/bigzoro/my_simplechain/consensus/pbft/validator"
+	"github.com/bigzoro/my_simplechain/core/rawdb"
+	"github.com/bigzoro/my_simplechain/crypto"
+	"github.com/bigzoro/my_simplechain/ethdb"
+	"github.com/bigzoro/my_simplechain/event"
+	elog "github.com/bigzoro/my_simplechain/log"
 )
 
 var testLogger = elog.New()

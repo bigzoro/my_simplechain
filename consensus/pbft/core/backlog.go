@@ -17,8 +17,8 @@
 package core
 
 import (
-	"github.com/simplechain-org/go-simplechain/common/prque"
-	"github.com/simplechain-org/go-simplechain/consensus/pbft"
+	"github.com/bigzoro/my_simplechain/common/prque"
+	"github.com/bigzoro/my_simplechain/consensus/pbft"
 )
 
 var (

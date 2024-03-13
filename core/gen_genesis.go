@@ -7,10 +7,10 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/common/hexutil"
-	"github.com/simplechain-org/go-simplechain/common/math"
-	"github.com/simplechain-org/go-simplechain/params"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/common/hexutil"
+	"github.com/bigzoro/my_simplechain/common/math"
+	"github.com/bigzoro/my_simplechain/params"
 )
 
 var _ = (*genesisSpecMarshaling)(nil)

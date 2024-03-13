@@ -26,13 +26,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/consensus/ethash"
-	"github.com/simplechain-org/go-simplechain/core"
-	"github.com/simplechain-org/go-simplechain/eth"
-	"github.com/simplechain-org/go-simplechain/internal/jsre"
-	"github.com/simplechain-org/go-simplechain/miner"
-	"github.com/simplechain-org/go-simplechain/node"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/consensus/ethash"
+	"github.com/bigzoro/my_simplechain/core"
+	"github.com/bigzoro/my_simplechain/eth"
+	"github.com/bigzoro/my_simplechain/internal/jsre"
+	"github.com/bigzoro/my_simplechain/miner"
+	"github.com/bigzoro/my_simplechain/node"
 )
 
 const (

@@ -22,8 +22,8 @@ import (
 	"net/http"
 	"sort"
 
-	"github.com/simplechain-org/go-simplechain/log"
-	"github.com/simplechain-org/go-simplechain/metrics"
+	"github.com/bigzoro/my_simplechain/log"
+	"github.com/bigzoro/my_simplechain/metrics"
 )
 
 // Handler returns an HTTP handler which dump metrics in Prometheus format.

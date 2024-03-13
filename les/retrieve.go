@@ -24,8 +24,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/simplechain-org/go-simplechain/common/mclock"
-	"github.com/simplechain-org/go-simplechain/light"
+	"github.com/bigzoro/my_simplechain/common/mclock"
+	"github.com/bigzoro/my_simplechain/light"
 )
 
 var (

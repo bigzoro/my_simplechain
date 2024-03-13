@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/rpc"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/rpc"
 )
 
 func TestUnmarshalJSONNewFilterArgs(t *testing.T) {

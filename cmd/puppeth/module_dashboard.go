@@ -26,7 +26,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/simplechain-org/go-simplechain/log"
+	"github.com/bigzoro/my_simplechain/log"
 )
 
 // dashboardContent is the actual dashboard HTML content to serve up when users

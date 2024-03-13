@@ -17,8 +17,8 @@
 package validator
 
 import (
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/consensus/pbft"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/consensus/pbft"
 )
 
 func New(addr common.Address) pbft.Validator {

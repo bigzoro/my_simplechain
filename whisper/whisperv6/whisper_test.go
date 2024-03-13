@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/simplechain-org/go-simplechain/common"
+	"github.com/bigzoro/my_simplechain/common"
 	"golang.org/x/crypto/pbkdf2"
 )
 

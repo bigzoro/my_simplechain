@@ -4,8 +4,8 @@ import (
 	"crypto/tls"
 	"crypto/x509"
 	"fmt"
+	"github.com/bigzoro/my_simplechain/p2p/enode"
 	mapset "github.com/deckarep/golang-set"
-	"github.com/simplechain-org/go-simplechain/p2p/enode"
 	"math/big"
 	"net"
 	"path/filepath"
@@ -14,7 +14,9 @@ import (
 
 var defaultDialTimeout = 15 * time.Second
 
-/* tls相关的目录的根目录
+/*
+	tls相关的目录的根目录
+
 .
 ├── crls
 ├── keystore

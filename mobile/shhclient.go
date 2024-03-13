@@ -19,8 +19,8 @@
 package geth
 
 import (
-	"github.com/simplechain-org/go-simplechain/whisper/shhclient"
-	whisper "github.com/simplechain-org/go-simplechain/whisper/whisperv6"
+	"github.com/bigzoro/my_simplechain/whisper/shhclient"
+	whisper "github.com/bigzoro/my_simplechain/whisper/whisperv6"
 )
 
 // WhisperClient provides access to the Ethereum APIs.

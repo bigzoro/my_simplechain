@@ -26,10 +26,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/simplechain-org/go-simplechain/crypto"
-	"github.com/simplechain-org/go-simplechain/p2p/enode"
-	"github.com/simplechain-org/go-simplechain/p2p/enr"
-	"github.com/simplechain-org/go-simplechain/rlp"
+	"github.com/bigzoro/my_simplechain/crypto"
+	"github.com/bigzoro/my_simplechain/p2p/enode"
+	"github.com/bigzoro/my_simplechain/p2p/enr"
+	"github.com/bigzoro/my_simplechain/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

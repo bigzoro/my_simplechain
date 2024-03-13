@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/simplechain-org/go-simplechain/p2p/enr"
+	"github.com/bigzoro/my_simplechain/p2p/enr"
 )
 
 func TestReadNodes(t *testing.T) {

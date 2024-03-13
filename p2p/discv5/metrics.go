@@ -16,7 +16,7 @@
 
 package discv5
 
-import "github.com/simplechain-org/go-simplechain/metrics"
+import "github.com/bigzoro/my_simplechain/metrics"
 
 var (
 	ingressTrafficMeter = metrics.NewRegisteredMeter("discv5/InboundTraffic", nil)

@@ -1,8 +1,8 @@
 package eth
 
 import (
+	"github.com/bigzoro/my_simplechain/common"
 	mapset "github.com/deckarep/golang-set"
-	"github.com/simplechain-org/go-simplechain/common"
 )
 
 type SuperManager struct {

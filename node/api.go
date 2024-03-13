@@ -19,15 +19,15 @@ package node
 import (
 	"context"
 	"fmt"
-	"github.com/simplechain-org/go-simplechain/p2p/secure"
+	"github.com/bigzoro/my_simplechain/p2p/secure"
 	"path/filepath"
 	"strings"
 
-	"github.com/simplechain-org/go-simplechain/common/hexutil"
-	"github.com/simplechain-org/go-simplechain/crypto"
-	"github.com/simplechain-org/go-simplechain/p2p"
-	"github.com/simplechain-org/go-simplechain/p2p/enode"
-	"github.com/simplechain-org/go-simplechain/rpc"
+	"github.com/bigzoro/my_simplechain/common/hexutil"
+	"github.com/bigzoro/my_simplechain/crypto"
+	"github.com/bigzoro/my_simplechain/p2p"
+	"github.com/bigzoro/my_simplechain/p2p/enode"
+	"github.com/bigzoro/my_simplechain/rpc"
 )
 
 // PrivateAdminAPI is the collection of administrative API methods exposed only

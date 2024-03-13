@@ -21,16 +21,16 @@ import (
 	"bytes"
 	"encoding/binary"
 	"fmt"
-	"github.com/simplechain-org/go-simplechain/log"
+	"github.com/bigzoro/my_simplechain/log"
 	"io"
 	"math/big"
 	"reflect"
 	"sync/atomic"
 	"time"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/common/hexutil"
-	"github.com/simplechain-org/go-simplechain/rlp"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/common/hexutil"
+	"github.com/bigzoro/my_simplechain/rlp"
 	"golang.org/x/crypto/sha3"
 )
 

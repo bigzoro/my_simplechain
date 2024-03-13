@@ -17,8 +17,8 @@
 package core
 
 import (
-	"github.com/simplechain-org/go-simplechain/consensus/pbft"
-	"github.com/simplechain-org/go-simplechain/log"
+	"github.com/bigzoro/my_simplechain/consensus/pbft"
+	"github.com/bigzoro/my_simplechain/log"
 )
 
 func (c *core) handleRequest(request *pbft.Request) error {

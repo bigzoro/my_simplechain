@@ -13,12 +13,13 @@
 //
 // You should have received a copy of the GNU Lesser General Public License
 // along with the go-ethereum library. If not, see <http://www.gnu.org/licenses/>.
-//+build sub
+//go:build sub
+// +build sub
 
 package types
 
 import (
-	"github.com/simplechain-org/go-simplechain/common"
+	"github.com/bigzoro/my_simplechain/common"
 	"math/big"
 )
 

@@ -24,11 +24,11 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/simplechain-org/go-simplechain/accounts/abi/bind"
-	"github.com/simplechain-org/go-simplechain/cmd/utils"
-	"github.com/simplechain-org/go-simplechain/common/compiler"
-	"github.com/simplechain-org/go-simplechain/crypto"
-	"github.com/simplechain-org/go-simplechain/log"
+	"github.com/bigzoro/my_simplechain/accounts/abi/bind"
+	"github.com/bigzoro/my_simplechain/cmd/utils"
+	"github.com/bigzoro/my_simplechain/common/compiler"
+	"github.com/bigzoro/my_simplechain/crypto"
+	"github.com/bigzoro/my_simplechain/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

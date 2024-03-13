@@ -33,12 +33,12 @@ import (
 	"time"
 	"unsafe"
 
+	"github.com/bigzoro/my_simplechain/consensus"
+	"github.com/bigzoro/my_simplechain/log"
+	"github.com/bigzoro/my_simplechain/metrics"
+	"github.com/bigzoro/my_simplechain/rpc"
 	mmap "github.com/edsrzf/mmap-go"
 	"github.com/hashicorp/golang-lru/simplelru"
-	"github.com/simplechain-org/go-simplechain/consensus"
-	"github.com/simplechain-org/go-simplechain/log"
-	"github.com/simplechain-org/go-simplechain/metrics"
-	"github.com/simplechain-org/go-simplechain/rpc"
 )
 
 var ErrInvalidDumpMagic = errors.New("invalid dump magic")

@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/simplechain-org/go-simplechain/consensus/pbft"
+	"github.com/bigzoro/my_simplechain/consensus/pbft"
 )
 
 func newRoundChangeSet(valSet pbft.ValidatorSet) *roundChangeSet {

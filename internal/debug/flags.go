@@ -25,11 +25,11 @@ import (
 	"os"
 	"runtime"
 
+	"github.com/bigzoro/my_simplechain/log"
+	"github.com/bigzoro/my_simplechain/metrics"
+	"github.com/bigzoro/my_simplechain/metrics/exp"
 	"github.com/fjl/memsize/memsizeui"
 	colorable "github.com/mattn/go-colorable"
-	"github.com/simplechain-org/go-simplechain/log"
-	"github.com/simplechain-org/go-simplechain/metrics"
-	"github.com/simplechain-org/go-simplechain/metrics/exp"
 	"gopkg.in/urfave/cli.v1"
 )
 

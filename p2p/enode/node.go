@@ -22,14 +22,14 @@ import (
 	"encoding/hex"
 	"errors"
 	"fmt"
-	"github.com/simplechain-org/go-simplechain/crypto"
+	"github.com/bigzoro/my_simplechain/crypto"
 	"math/bits"
 	"math/rand"
 	"net"
 	"strings"
 
-	"github.com/simplechain-org/go-simplechain/p2p/enr"
-	"github.com/simplechain-org/go-simplechain/rlp"
+	"github.com/bigzoro/my_simplechain/p2p/enr"
+	"github.com/bigzoro/my_simplechain/rlp"
 )
 
 var errMissingPrefix = errors.New("missing 'enr:' prefix for base64-encoded record")

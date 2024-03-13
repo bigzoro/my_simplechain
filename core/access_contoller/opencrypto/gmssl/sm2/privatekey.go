@@ -10,11 +10,11 @@ package sm2
 import (
 	crypto2 "crypto"
 	"encoding/pem"
-	"github.com/simplechain-org/go-simplechain/core/access_contoller/crypto/hash"
-	"github.com/simplechain-org/go-simplechain/core/access_contoller/opencrypto/gmssl/gmssl"
-	"github.com/simplechain-org/go-simplechain/core/access_contoller/opencrypto/utils"
+	"github.com/bigzoro/my_simplechain/core/access_contoller/crypto/hash"
+	"github.com/bigzoro/my_simplechain/core/access_contoller/opencrypto/gmssl/gmssl"
+	"github.com/bigzoro/my_simplechain/core/access_contoller/opencrypto/utils"
 
-	bccrypto "github.com/simplechain-org/go-simplechain/core/access_contoller/crypto"
+	bccrypto "github.com/bigzoro/my_simplechain/core/access_contoller/crypto"
 )
 
 var _ bccrypto.PrivateKey = (*PrivateKey)(nil)

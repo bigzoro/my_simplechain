@@ -21,8 +21,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/simplechain-org/go-simplechain/core/types"
-	"github.com/simplechain-org/go-simplechain/crypto"
+	"github.com/bigzoro/my_simplechain/core/types"
+	"github.com/bigzoro/my_simplechain/crypto"
 	"github.com/stretchr/testify/assert"
 )
 

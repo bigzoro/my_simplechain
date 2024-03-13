@@ -25,7 +25,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/simplechain-org/go-simplechain/log"
+	"github.com/bigzoro/my_simplechain/log"
 )
 
 const (

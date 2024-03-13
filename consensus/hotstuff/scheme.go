@@ -6,9 +6,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	bls "github.com/simplechain-org/go-simplechain/consensus/hotstuff/bls12-381"
-	"github.com/simplechain-org/go-simplechain/core/types"
+	"github.com/bigzoro/my_simplechain/common"
+	bls "github.com/bigzoro/my_simplechain/consensus/hotstuff/bls12-381"
+	"github.com/bigzoro/my_simplechain/core/types"
 	"golang.org/x/crypto/sha3"
 )
 

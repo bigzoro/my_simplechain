@@ -25,13 +25,13 @@ import (
 	"sync"
 	"time"
 
+	ethereum "github.com/bigzoro/my_simplechain"
+	"github.com/bigzoro/my_simplechain/accounts"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/core/types"
+	"github.com/bigzoro/my_simplechain/crypto"
+	"github.com/bigzoro/my_simplechain/log"
 	"github.com/karalabe/usb"
-	ethereum "github.com/simplechain-org/go-simplechain"
-	"github.com/simplechain-org/go-simplechain/accounts"
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/core/types"
-	"github.com/simplechain-org/go-simplechain/crypto"
-	"github.com/simplechain-org/go-simplechain/log"
 )
 
 // Maximum time between wallet health checks to detect USB unplugs.

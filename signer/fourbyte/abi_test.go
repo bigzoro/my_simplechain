@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/simplechain-org/go-simplechain/accounts/abi"
-	"github.com/simplechain-org/go-simplechain/common"
+	"github.com/bigzoro/my_simplechain/accounts/abi"
+	"github.com/bigzoro/my_simplechain/common"
 )
 
 func verify(t *testing.T, jsondata, calldata string, exp []interface{}) {

@@ -21,9 +21,9 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/core/types"
-	"github.com/simplechain-org/go-simplechain/rlp"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/core/types"
+	"github.com/bigzoro/my_simplechain/rlp"
 )
 
 // Proposal supports retrieving height and serialized block to be used during Istanbul consensus.
@@ -108,9 +108,10 @@ func (v *View) String() string {
 }
 
 // Cmp compares v and y and returns:
-//   -1 if v <  y
-//    0 if v == y
-//   +1 if v >  y
+//
+//	-1 if v <  y
+//	 0 if v == y
+//	+1 if v >  y
 func (v *View) Cmp(y *View) int {
 	if v.Sequence.Cmp(y.Sequence) != 0 {
 		return v.Sequence.Cmp(y.Sequence)

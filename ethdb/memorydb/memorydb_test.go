@@ -19,8 +19,8 @@ package memorydb
 import (
 	"testing"
 
-	"github.com/simplechain-org/go-simplechain/ethdb"
-	"github.com/simplechain-org/go-simplechain/ethdb/dbtest"
+	"github.com/bigzoro/my_simplechain/ethdb"
+	"github.com/bigzoro/my_simplechain/ethdb/dbtest"
 )
 
 func TestMemoryDB(t *testing.T) {

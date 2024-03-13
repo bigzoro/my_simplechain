@@ -19,8 +19,8 @@ package p2p
 import (
 	"fmt"
 
-	"github.com/simplechain-org/go-simplechain/p2p/enode"
-	"github.com/simplechain-org/go-simplechain/p2p/enr"
+	"github.com/bigzoro/my_simplechain/p2p/enode"
+	"github.com/bigzoro/my_simplechain/p2p/enr"
 )
 
 // Protocol represents a P2P subprotocol implementation.

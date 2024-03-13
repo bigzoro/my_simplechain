@@ -19,11 +19,11 @@ package bind
 import (
 	"context"
 	"errors"
-	ethereum "github.com/simplechain-org/go-simplechain"
+	ethereum "github.com/bigzoro/my_simplechain"
 	"math/big"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/core/types"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/core/types"
 )
 
 var (

@@ -22,7 +22,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/simplechain-org/go-simplechain/log"
+	"github.com/bigzoro/my_simplechain/log"
 )
 
 func init() {

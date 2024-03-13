@@ -19,7 +19,7 @@ package downloader
 import (
 	"fmt"
 
-	"github.com/simplechain-org/go-simplechain/core/types"
+	"github.com/bigzoro/my_simplechain/core/types"
 )
 
 // peerDropFn is a callback type for dropping a peer detected as malicious.

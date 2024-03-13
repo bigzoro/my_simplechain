@@ -27,10 +27,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/bigzoro/my_simplechain/accounts"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/log"
 	mapset "github.com/deckarep/golang-set"
-	"github.com/simplechain-org/go-simplechain/accounts"
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/log"
 )
 
 // Minimum amount of time between cache reloads. This limit applies if the platform does

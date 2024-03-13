@@ -22,9 +22,9 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/core/types"
-	"github.com/simplechain-org/go-simplechain/log"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/core/types"
+	"github.com/bigzoro/my_simplechain/log"
 )
 
 // nonceHeap is a heap.Interface implementation over 64bit unsigned integers for

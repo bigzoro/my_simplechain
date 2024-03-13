@@ -21,9 +21,9 @@ package geth
 import (
 	"encoding/json"
 
-	"github.com/simplechain-org/go-simplechain/core"
-	"github.com/simplechain-org/go-simplechain/p2p/discv5"
-	"github.com/simplechain-org/go-simplechain/params"
+	"github.com/bigzoro/my_simplechain/core"
+	"github.com/bigzoro/my_simplechain/p2p/discv5"
+	"github.com/bigzoro/my_simplechain/params"
 )
 
 // MainnetGenesis returns the JSON spec to use for the main Ethereum network. It

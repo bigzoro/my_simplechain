@@ -26,9 +26,9 @@ import (
 	"math/rand"
 	"time"
 
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/internal/jsre/deps"
 	"github.com/robertkrimen/otto"
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/internal/jsre/deps"
 )
 
 var (

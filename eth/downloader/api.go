@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	ethereum "github.com/simplechain-org/go-simplechain"
-	"github.com/simplechain-org/go-simplechain/event"
-	"github.com/simplechain-org/go-simplechain/rpc"
+	ethereum "github.com/bigzoro/my_simplechain"
+	"github.com/bigzoro/my_simplechain/event"
+	"github.com/bigzoro/my_simplechain/rpc"
 )
 
 // PublicDownloaderAPI provides an API which gives information about the current synchronisation status.

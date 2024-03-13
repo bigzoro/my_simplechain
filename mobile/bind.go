@@ -23,12 +23,12 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/simplechain-org/go-simplechain/accounts/abi"
-	"github.com/simplechain-org/go-simplechain/accounts/abi/bind"
-	"github.com/simplechain-org/go-simplechain/accounts/keystore"
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/core/types"
-	"github.com/simplechain-org/go-simplechain/crypto"
+	"github.com/bigzoro/my_simplechain/accounts/abi"
+	"github.com/bigzoro/my_simplechain/accounts/abi/bind"
+	"github.com/bigzoro/my_simplechain/accounts/keystore"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/core/types"
+	"github.com/bigzoro/my_simplechain/crypto"
 )
 
 // Signer is an interface defining the callback when a contract requires a
@@ -42,7 +42,7 @@ type MobileSigner struct {
 }
 
 func (s *MobileSigner) Sign(addr *Address, unsignedTx *Transaction) (signedTx *Transaction, _ error) {
-	sig, err := s.sign( addr.address, unsignedTx.tx)
+	sig, err := s.sign(addr.address, unsignedTx.tx)
 	if err != nil {
 		return nil, err
 	}
@@ -88,7 +88,7 @@ func NewKeyedTransactOpts(keyJson []byte, passphrase string) (*TransactOpts, err
 	if err != nil {
 		return nil, err
 	}
-	signer:=types.HomesteadSigner{}
+	signer := types.HomesteadSigner{}
 	keyAddr := crypto.PubkeyToAddress(key.PrivateKey.PublicKey)
 	opts := bind.TransactOpts{
 		From: keyAddr,
@@ -122,7 +122,7 @@ func (opts *TransactOpts) GetGasLimit() int64   { return int64(opts.opts.GasLimi
 func (opts *TransactOpts) SetFrom(from *Address) { opts.opts.From = from.address }
 func (opts *TransactOpts) SetNonce(nonce int64)  { opts.opts.Nonce = big.NewInt(nonce) }
 func (opts *TransactOpts) SetSigner(s Signer) {
-	opts.opts.Signer = func( addr common.Address, tx *types.Transaction) (*types.Transaction, error) {
+	opts.opts.Signer = func(addr common.Address, tx *types.Transaction) (*types.Transaction, error) {
 		sig, err := s.Sign(&Address{addr}, &Transaction{tx})
 		if err != nil {
 			return nil, err

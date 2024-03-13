@@ -3,8 +3,8 @@ package backend
 import (
 	"encoding/binary"
 
-	"github.com/simplechain-org/go-simplechain/consensus/raft"
-	"github.com/simplechain-org/go-simplechain/log"
+	"github.com/bigzoro/my_simplechain/consensus/raft"
+	"github.com/bigzoro/my_simplechain/log"
 	"github.com/syndtr/goleveldb/leveldb"
 	"github.com/syndtr/goleveldb/leveldb/errors"
 	"github.com/syndtr/goleveldb/leveldb/opt"

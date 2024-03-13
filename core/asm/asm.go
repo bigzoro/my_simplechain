@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/simplechain-org/go-simplechain/core/vm"
+	"github.com/bigzoro/my_simplechain/core/vm"
 )
 
 // Iterator for disassembled EVM instructions

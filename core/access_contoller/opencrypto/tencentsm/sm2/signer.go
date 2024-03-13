@@ -9,7 +9,7 @@ package sm2
 
 import (
 	"crypto"
-	"github.com/simplechain-org/go-simplechain/core/access_contoller/opencrypto/utils"
+	"github.com/bigzoro/my_simplechain/core/access_contoller/opencrypto/utils"
 	"io"
 )
 

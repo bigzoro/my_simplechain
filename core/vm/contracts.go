@@ -22,12 +22,12 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/common/math"
-	"github.com/simplechain-org/go-simplechain/crypto"
-	"github.com/simplechain-org/go-simplechain/crypto/blake2b"
-	"github.com/simplechain-org/go-simplechain/crypto/bn256"
-	"github.com/simplechain-org/go-simplechain/params"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/common/math"
+	"github.com/bigzoro/my_simplechain/crypto"
+	"github.com/bigzoro/my_simplechain/crypto/blake2b"
+	"github.com/bigzoro/my_simplechain/crypto/bn256"
+	"github.com/bigzoro/my_simplechain/params"
 
 	//lint:ignore SA1019 Needed for precompile
 	"golang.org/x/crypto/ripemd160"

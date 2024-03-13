@@ -21,7 +21,7 @@ package geth
 import (
 	"errors"
 
-	"github.com/simplechain-org/go-simplechain/p2p"
+	"github.com/bigzoro/my_simplechain/p2p"
 )
 
 // NodeInfo represents pi short summary of the information known about the host.

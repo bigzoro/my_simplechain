@@ -19,7 +19,7 @@
 package downloader
 
 import (
-	"github.com/simplechain-org/go-simplechain/metrics"
+	"github.com/bigzoro/my_simplechain/metrics"
 )
 
 var (

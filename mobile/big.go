@@ -22,7 +22,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/simplechain-org/go-simplechain/common"
+	"github.com/bigzoro/my_simplechain/common"
 )
 
 // A BigInt represents a signed multi-precision integer.
@@ -67,7 +67,6 @@ func (bi *BigInt) SetInt64(x int64) {
 //	-1 if x <  0
 //	 0 if x == 0
 //	+1 if x >  0
-//
 func (bi *BigInt) Sign() int {
 	return bi.bigint.Sign()
 }

@@ -24,12 +24,12 @@ import (
 	"strings"
 	"sync"
 
-	ethereum "github.com/simplechain-org/go-simplechain"
-	"github.com/simplechain-org/go-simplechain/accounts/abi"
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/core/types"
-	"github.com/simplechain-org/go-simplechain/crypto"
-	"github.com/simplechain-org/go-simplechain/event"
+	ethereum "github.com/bigzoro/my_simplechain"
+	"github.com/bigzoro/my_simplechain/accounts/abi"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/core/types"
+	"github.com/bigzoro/my_simplechain/crypto"
+	"github.com/bigzoro/my_simplechain/event"
 )
 
 // SignerFn is a signer function callback when a contract requires a method to

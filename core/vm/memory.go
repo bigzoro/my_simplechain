@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/simplechain-org/go-simplechain/common/math"
+	"github.com/bigzoro/my_simplechain/common/math"
 )
 
 // Memory implements a simple memory model for the ethereum virtual machine.

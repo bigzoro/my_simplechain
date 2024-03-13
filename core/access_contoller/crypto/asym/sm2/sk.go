@@ -18,8 +18,8 @@ import (
 	"encoding/asn1"
 	"encoding/pem"
 	"fmt"
-	"github.com/simplechain-org/go-simplechain/core/access_contoller/crypto"
-	"github.com/simplechain-org/go-simplechain/core/access_contoller/crypto/hash"
+	"github.com/bigzoro/my_simplechain/core/access_contoller/crypto"
+	"github.com/bigzoro/my_simplechain/core/access_contoller/crypto/hash"
 	"io"
 	"math/big"
 

@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/simplechain-org/go-simplechain/common/mclock"
+	"github.com/bigzoro/my_simplechain/common/mclock"
 )
 
 // logger collects events in string format and discards events older than the

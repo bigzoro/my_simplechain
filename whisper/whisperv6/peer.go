@@ -22,11 +22,11 @@ import (
 	"sync"
 	"time"
 
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/log"
+	"github.com/bigzoro/my_simplechain/p2p"
+	"github.com/bigzoro/my_simplechain/rlp"
 	mapset "github.com/deckarep/golang-set"
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/log"
-	"github.com/simplechain-org/go-simplechain/p2p"
-	"github.com/simplechain-org/go-simplechain/rlp"
 )
 
 // Peer represents a whisper protocol peer connection.

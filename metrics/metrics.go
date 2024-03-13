@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/simplechain-org/go-simplechain/log"
+	"github.com/bigzoro/my_simplechain/log"
 )
 
 // Enabled is checked by the constructor functions for all of the

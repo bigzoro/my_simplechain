@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/crypto"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/crypto"
 )
 
 type Error struct {

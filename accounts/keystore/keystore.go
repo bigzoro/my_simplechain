@@ -25,7 +25,7 @@ import (
 	crand "crypto/rand"
 	"errors"
 	"fmt"
-	"github.com/simplechain-org/go-simplechain/common/hexutil"
+	"github.com/bigzoro/my_simplechain/common/hexutil"
 	"math/big"
 	"os"
 	"path/filepath"
@@ -34,11 +34,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/simplechain-org/go-simplechain/accounts"
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/core/types"
-	"github.com/simplechain-org/go-simplechain/crypto"
-	"github.com/simplechain-org/go-simplechain/event"
+	"github.com/bigzoro/my_simplechain/accounts"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/core/types"
+	"github.com/bigzoro/my_simplechain/crypto"
+	"github.com/bigzoro/my_simplechain/event"
 )
 
 var (
@@ -487,7 +487,7 @@ func (ks *KeyStore) ImportPreSaleKey(keyJSON []byte, passphrase string) (account
 	return a, nil
 }
 
-//Get account's pulick key from keystore
+// Get account's pulick key from keystore
 func (ks *KeyStore) GetPublicKey(a accounts.Account) (string, error) {
 	ks.mu.RLock()
 	defer ks.mu.RUnlock()

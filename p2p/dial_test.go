@@ -24,12 +24,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/bigzoro/my_simplechain/internal/testlog"
+	"github.com/bigzoro/my_simplechain/log"
+	"github.com/bigzoro/my_simplechain/p2p/enode"
+	"github.com/bigzoro/my_simplechain/p2p/enr"
+	"github.com/bigzoro/my_simplechain/p2p/netutil"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/simplechain-org/go-simplechain/internal/testlog"
-	"github.com/simplechain-org/go-simplechain/log"
-	"github.com/simplechain-org/go-simplechain/p2p/enode"
-	"github.com/simplechain-org/go-simplechain/p2p/enr"
-	"github.com/simplechain-org/go-simplechain/p2p/netutil"
 )
 
 func init() {

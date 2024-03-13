@@ -19,10 +19,10 @@ package shhclient
 import (
 	"context"
 
-	"github.com/simplechain-org/go-simplechain"
-	"github.com/simplechain-org/go-simplechain/common/hexutil"
-	"github.com/simplechain-org/go-simplechain/rpc"
-	whisper "github.com/simplechain-org/go-simplechain/whisper/whisperv6"
+	"github.com/bigzoro/my_simplechain"
+	"github.com/bigzoro/my_simplechain/common/hexutil"
+	"github.com/bigzoro/my_simplechain/rpc"
+	whisper "github.com/bigzoro/my_simplechain/whisper/whisperv6"
 )
 
 // Client defines typed wrappers for the Whisper v6 RPC API.

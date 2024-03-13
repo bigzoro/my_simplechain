@@ -19,7 +19,7 @@ package types
 import (
 	"math/big"
 
-	"github.com/simplechain-org/go-simplechain/common"
+	"github.com/bigzoro/my_simplechain/common"
 )
 
 // LegacyTx is the transaction data of regular Ethereum transactions.
@@ -32,8 +32,6 @@ type LegacyTx struct {
 	Data     []byte          // contract invocation input data
 	V, R, S  *big.Int        // signature values
 }
-
-
 
 // copy creates a deep copy of the transaction data and initializes all fields.
 func (tx *LegacyTx) copy() TxData {

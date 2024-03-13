@@ -30,8 +30,8 @@ import (
 	"text/template"
 	"unicode"
 
-	"github.com/simplechain-org/go-simplechain/accounts/abi"
-	"github.com/simplechain-org/go-simplechain/log"
+	"github.com/bigzoro/my_simplechain/accounts/abi"
+	"github.com/bigzoro/my_simplechain/log"
 )
 
 // Lang is a target programming language selector to generate bindings for.

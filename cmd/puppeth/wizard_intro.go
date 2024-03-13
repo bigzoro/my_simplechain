@@ -26,7 +26,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/simplechain-org/go-simplechain/log"
+	"github.com/bigzoro/my_simplechain/log"
 )
 
 // makeWizard creates and returns a new puppeth wizard.

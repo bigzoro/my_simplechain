@@ -23,7 +23,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/simplechain-org/go-simplechain/common"
+	"github.com/bigzoro/my_simplechain/common"
 )
 
 // precompiledTest defines the input/output pairs for precompiled contract tests.

@@ -17,7 +17,7 @@
 package les
 
 import (
-	"github.com/simplechain-org/go-simplechain/rlp"
+	"github.com/bigzoro/my_simplechain/rlp"
 )
 
 // lesEntry is the "les" ENR entry. This is set for LES servers only.

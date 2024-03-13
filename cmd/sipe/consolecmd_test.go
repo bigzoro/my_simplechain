@@ -27,7 +27,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/simplechain-org/go-simplechain/params"
+	"github.com/bigzoro/my_simplechain/params"
 )
 
 const (

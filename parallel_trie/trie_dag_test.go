@@ -3,11 +3,11 @@ package trie
 import (
 	"testing"
 
-	"github.com/simplechain-org/go-simplechain/ethdb/memorydb"
+	"github.com/bigzoro/my_simplechain/ethdb/memorydb"
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/simplechain-org/go-simplechain/common"
+	"github.com/bigzoro/my_simplechain/common"
 )
 
 func TestTrieDag(t *testing.T) {

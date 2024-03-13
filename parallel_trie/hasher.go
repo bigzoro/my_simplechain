@@ -20,9 +20,9 @@ import (
 	"hash"
 	"sync"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/crypto/sha3"
-	"github.com/simplechain-org/go-simplechain/rlp"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/crypto/sha3"
+	"github.com/bigzoro/my_simplechain/rlp"
 )
 
 type hasher struct {

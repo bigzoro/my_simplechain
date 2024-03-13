@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/simplechain-org/go-simplechain/log"
+	"github.com/bigzoro/my_simplechain/log"
 )
 
 // deployWallet creates a new web wallet based on some user input.

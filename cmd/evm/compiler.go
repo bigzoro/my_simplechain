@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/simplechain-org/go-simplechain/cmd/evm/internal/compiler"
+	"github.com/bigzoro/my_simplechain/cmd/evm/internal/compiler"
 
 	cli "gopkg.in/urfave/cli.v1"
 )

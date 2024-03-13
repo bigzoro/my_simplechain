@@ -17,8 +17,8 @@
 package core
 
 import (
-	"github.com/simplechain-org/go-simplechain/consensus/pbft"
-	"github.com/simplechain-org/go-simplechain/core/types"
+	"github.com/bigzoro/my_simplechain/consensus/pbft"
+	"github.com/bigzoro/my_simplechain/core/types"
 )
 
 func (c *core) requestMissedTxs(missedTxs []types.MissedTx, val pbft.Validator) {

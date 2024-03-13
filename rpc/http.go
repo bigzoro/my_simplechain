@@ -31,8 +31,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/bigzoro/my_simplechain/log"
 	"github.com/rs/cors"
-	"github.com/simplechain-org/go-simplechain/log"
 )
 
 const (

@@ -23,11 +23,11 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/simplechain-org/go-simplechain/ethdb/memorydb"
+	"github.com/bigzoro/my_simplechain/ethdb/memorydb"
 
-	"github.com/simplechain-org/go-simplechain/rlp"
+	"github.com/bigzoro/my_simplechain/rlp"
 
-	"github.com/simplechain-org/go-simplechain/common"
+	"github.com/bigzoro/my_simplechain/common"
 )
 
 func TestDecodeNode2(t *testing.T) {

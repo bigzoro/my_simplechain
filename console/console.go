@@ -28,12 +28,12 @@ import (
 	"strings"
 	"syscall"
 
+	"github.com/bigzoro/my_simplechain/internal/jsre"
+	"github.com/bigzoro/my_simplechain/internal/web3ext"
+	"github.com/bigzoro/my_simplechain/rpc"
 	"github.com/mattn/go-colorable"
 	"github.com/peterh/liner"
 	"github.com/robertkrimen/otto"
-	"github.com/simplechain-org/go-simplechain/internal/jsre"
-	"github.com/simplechain-org/go-simplechain/internal/web3ext"
-	"github.com/simplechain-org/go-simplechain/rpc"
 )
 
 var (

@@ -23,8 +23,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/simplechain-org/go-simplechain/crypto"
-	"github.com/simplechain-org/go-simplechain/p2p/enode"
+	"github.com/bigzoro/my_simplechain/crypto"
+	"github.com/bigzoro/my_simplechain/p2p/enode"
 )
 
 func TestUDPv4_Lookup(t *testing.T) {

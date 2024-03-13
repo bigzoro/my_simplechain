@@ -19,7 +19,7 @@ package types
 import (
 	"math/big"
 
-	"github.com/simplechain-org/go-simplechain/common"
+	"github.com/bigzoro/my_simplechain/common"
 )
 
 //go:generate gencodec -type AccessTuple -out gen_access_tuple.go

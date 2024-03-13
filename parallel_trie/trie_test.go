@@ -28,17 +28,17 @@ import (
 	"testing"
 	"testing/quick"
 
-	"github.com/simplechain-org/go-simplechain/ethdb/leveldb"
+	"github.com/bigzoro/my_simplechain/ethdb/leveldb"
 
-	"github.com/simplechain-org/go-simplechain/ethdb/memorydb"
+	"github.com/bigzoro/my_simplechain/ethdb/memorydb"
 
 	"github.com/stretchr/testify/assert"
 
 	"github.com/davecgh/go-spew/spew"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/crypto"
-	"github.com/simplechain-org/go-simplechain/rlp"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/crypto"
+	"github.com/bigzoro/my_simplechain/rlp"
 )
 
 func init() {

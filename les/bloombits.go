@@ -19,8 +19,8 @@ package les
 import (
 	"time"
 
-	"github.com/simplechain-org/go-simplechain/common/bitutil"
-	"github.com/simplechain-org/go-simplechain/light"
+	"github.com/bigzoro/my_simplechain/common/bitutil"
+	"github.com/bigzoro/my_simplechain/light"
 )
 
 const (

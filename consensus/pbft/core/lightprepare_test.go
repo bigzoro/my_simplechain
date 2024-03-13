@@ -17,13 +17,13 @@
 package core
 
 import (
-	"github.com/simplechain-org/go-simplechain/core/types"
-	"github.com/simplechain-org/go-simplechain/crypto"
+	"github.com/bigzoro/my_simplechain/core/types"
+	"github.com/bigzoro/my_simplechain/crypto"
 	"math/big"
 	"reflect"
 	"testing"
 
-	"github.com/simplechain-org/go-simplechain/consensus/pbft"
+	"github.com/bigzoro/my_simplechain/consensus/pbft"
 )
 
 func TestHandleLightPreprepare(t *testing.T) {

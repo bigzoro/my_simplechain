@@ -35,7 +35,7 @@ package whisperv6
 import (
 	"time"
 
-	"github.com/simplechain-org/go-simplechain/crypto"
+	"github.com/bigzoro/my_simplechain/crypto"
 )
 
 // Whisper protocol parameters

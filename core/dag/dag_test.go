@@ -21,7 +21,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/simplechain-org/go-simplechain/log"
+	"github.com/bigzoro/my_simplechain/log"
 )
 
 func TestDag(t *testing.T) {

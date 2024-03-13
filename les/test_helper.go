@@ -1,22 +1,21 @@
-//// Copyright 2016 The go-simplechain Authors
-//// This file is part of the go-simplechain library.
-////
-//// The go-simplechain library is free software: you can redistribute it and/or modify
-//// it under the terms of the GNU Lesser General Public License as published by
-//// the Free Software Foundation, either version 3 of the License, or
-//// (at your option) any later version.
-////
-//// The go-simplechain library is distributed in the hope that it will be useful,
-//// but WITHOUT ANY WARRANTY; without even the implied warranty of
-//// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-//// GNU Lesser General Public License for more details.
-////
-//// You should have received a copy of the GNU Lesser General Public License
-//// along with the go-simplechain library. If not, see <http://www.gnu.org/licenses/>.
+// // Copyright 2016 The go-simplechain Authors
+// // This file is part of the go-simplechain library.
+// //
+// // The go-simplechain library is free software: you can redistribute it and/or modify
+// // it under the terms of the GNU Lesser General Public License as published by
+// // the Free Software Foundation, either version 3 of the License, or
+// // (at your option) any later version.
+// //
+// // The go-simplechain library is distributed in the hope that it will be useful,
+// // but WITHOUT ANY WARRANTY; without even the implied warranty of
+// // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+// // GNU Lesser General Public License for more details.
+// //
+// // You should have received a copy of the GNU Lesser General Public License
+// // along with the go-simplechain library. If not, see <http://www.gnu.org/licenses/>.
 //
-//// This file contains some shares testing functionality, common to  multiple
-//// different files and modules being tested.
-//
+// // This file contains some shares testing functionality, common to  multiple
+// // different files and modules being tested.
 package les
 
 //
@@ -27,24 +26,24 @@ package les
 //	"testing"
 //	"time"
 //
-//	"github.com/simplechain-org/go-simplechain/accounts/abi/bind"
-//	"github.com/simplechain-org/go-simplechain/accounts/abi/bind/backends"
-//	"github.com/simplechain-org/go-simplechain/common"
-//	"github.com/simplechain-org/go-simplechain/common/mclock"
-//	"github.com/simplechain-org/go-simplechain/consensus/ethash"
-//	"github.com/simplechain-org/go-simplechain/contracts/checkpointoracle/contract"
-//	"github.com/simplechain-org/go-simplechain/core"
-//	"github.com/simplechain-org/go-simplechain/core/rawdb"
-//	"github.com/simplechain-org/go-simplechain/core/types"
-//	"github.com/simplechain-org/go-simplechain/crypto"
-//	"github.com/simplechain-org/go-simplechain/eth"
-//	"github.com/simplechain-org/go-simplechain/ethdb"
-//	"github.com/simplechain-org/go-simplechain/event"
-//	"github.com/simplechain-org/go-simplechain/les/flowcontrol"
-//	"github.com/simplechain-org/go-simplechain/light"
-//	"github.com/simplechain-org/go-simplechain/p2p"
-//	"github.com/simplechain-org/go-simplechain/p2p/enode"
-//	"github.com/simplechain-org/go-simplechain/params"
+//	"github.com/bigzoro/my_simplechain/accounts/abi/bind"
+//	"github.com/bigzoro/my_simplechain/accounts/abi/bind/backends"
+//	"github.com/bigzoro/my_simplechain/common"
+//	"github.com/bigzoro/my_simplechain/common/mclock"
+//	"github.com/bigzoro/my_simplechain/consensus/ethash"
+//	"github.com/bigzoro/my_simplechain/contracts/checkpointoracle/contract"
+//	"github.com/bigzoro/my_simplechain/core"
+//	"github.com/bigzoro/my_simplechain/core/rawdb"
+//	"github.com/bigzoro/my_simplechain/core/types"
+//	"github.com/bigzoro/my_simplechain/crypto"
+//	"github.com/bigzoro/my_simplechain/eth"
+//	"github.com/bigzoro/my_simplechain/ethdb"
+//	"github.com/bigzoro/my_simplechain/event"
+//	"github.com/bigzoro/my_simplechain/les/flowcontrol"
+//	"github.com/bigzoro/my_simplechain/light"
+//	"github.com/bigzoro/my_simplechain/p2p"
+//	"github.com/bigzoro/my_simplechain/p2p/enode"
+//	"github.com/bigzoro/my_simplechain/params"
 //)
 //
 //var (

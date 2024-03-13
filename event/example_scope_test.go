@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/simplechain-org/go-simplechain/event"
+	"github.com/bigzoro/my_simplechain/event"
 )
 
 // This example demonstrates how SubscriptionScope can be used to control the lifetime of

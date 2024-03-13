@@ -42,7 +42,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "github.com/simplechain-org/go-simplechain/crypto"
+	ethcrypto "github.com/bigzoro/my_simplechain/crypto"
 )
 
 var (

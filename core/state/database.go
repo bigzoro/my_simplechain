@@ -19,10 +19,10 @@ package state
 import (
 	"fmt"
 
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/ethdb"
+	"github.com/bigzoro/my_simplechain/trie"
 	lru "github.com/hashicorp/golang-lru"
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/ethdb"
-	"github.com/simplechain-org/go-simplechain/trie"
 )
 
 const (

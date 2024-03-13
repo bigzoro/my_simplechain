@@ -24,8 +24,8 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/bigzoro/my_simplechain/core"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/simplechain-org/go-simplechain/core"
 )
 
 // Tests the go-simplechain to Aleth chainspec conversion for the Stureby testnet.

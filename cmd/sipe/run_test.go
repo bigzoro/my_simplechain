@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/bigzoro/my_simplechain/internal/cmdtest"
+	"github.com/bigzoro/my_simplechain/rpc"
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/simplechain-org/go-simplechain/internal/cmdtest"
-	"github.com/simplechain-org/go-simplechain/rpc"
 )
 
 func tmpdir(t *testing.T) string {

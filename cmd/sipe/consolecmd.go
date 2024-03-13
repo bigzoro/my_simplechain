@@ -18,17 +18,17 @@ package main
 
 import (
 	"fmt"
-	"github.com/simplechain-org/go-simplechain/common"
+	"github.com/bigzoro/my_simplechain/common"
 	"os"
 	"os/signal"
 	"path/filepath"
 	"strings"
 	"syscall"
 
-	"github.com/simplechain-org/go-simplechain/cmd/utils"
-	"github.com/simplechain-org/go-simplechain/console"
-	"github.com/simplechain-org/go-simplechain/node"
-	"github.com/simplechain-org/go-simplechain/rpc"
+	"github.com/bigzoro/my_simplechain/cmd/utils"
+	"github.com/bigzoro/my_simplechain/console"
+	"github.com/bigzoro/my_simplechain/node"
+	"github.com/bigzoro/my_simplechain/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

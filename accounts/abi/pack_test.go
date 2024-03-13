@@ -27,7 +27,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/simplechain-org/go-simplechain/common"
+	"github.com/bigzoro/my_simplechain/common"
 )
 
 // TestPack tests the general pack/unpack tests in packing_test.go

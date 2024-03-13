@@ -19,8 +19,8 @@ package core
 import (
 	"sync"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/core/state"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/core/state"
 )
 
 // txNoncer is a tiny virtual state database to manage the executable nonces of

@@ -24,8 +24,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/bigzoro/my_simplechain/log"
 	mapset "github.com/deckarep/golang-set"
-	"github.com/simplechain-org/go-simplechain/log"
 )
 
 // fileCache is a cache of files seen during scan of keystore.

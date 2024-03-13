@@ -1,9 +1,9 @@
 package hotstuff
 
 import (
-	"github.com/simplechain-org/go-simplechain/consensus"
-	bls "github.com/simplechain-org/go-simplechain/consensus/hotstuff/bls12-381"
-	"github.com/simplechain-org/go-simplechain/consensus/hotstuff/common"
+	"github.com/bigzoro/my_simplechain/consensus"
+	bls "github.com/bigzoro/my_simplechain/consensus/hotstuff/bls12-381"
+	"github.com/bigzoro/my_simplechain/consensus/hotstuff/common"
 )
 
 // The config to build the Hotstuff consensus engine(council)

@@ -20,7 +20,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/simplechain-org/go-simplechain/p2p/enode"
+	"github.com/bigzoro/my_simplechain/p2p/enode"
 )
 
 // lookup performs a network search for nodes close to the given target. It approaches the

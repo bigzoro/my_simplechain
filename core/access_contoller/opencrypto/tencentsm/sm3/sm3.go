@@ -9,7 +9,7 @@ package sm3
 
 import "C"
 import (
-	"github.com/simplechain-org/go-simplechain/core/access_contoller/opencrypto/tencentsm/tencentsm"
+	"github.com/bigzoro/my_simplechain/core/access_contoller/opencrypto/tencentsm/tencentsm"
 	"hash"
 )
 

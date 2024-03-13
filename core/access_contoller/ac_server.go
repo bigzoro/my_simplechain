@@ -2,10 +2,9 @@ package access_contoller
 
 import (
 	"fmt"
-	"my_simplechain/core/access_contoller/my_lru"
-	"my_simplechain/params"
-
-	bcx509 "my_simplechain/core/access_contoller/crypto/x509"
+	bcx509 "github.com/bigzoro/my_simplechain/core/access_contoller/crypto/x509"
+	"github.com/bigzoro/my_simplechain/core/access_contoller/my_lru"
+	"github.com/bigzoro/my_simplechain/params"
 	"strconv"
 	"strings"
 	"sync"

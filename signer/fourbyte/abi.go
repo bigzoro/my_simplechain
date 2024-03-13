@@ -23,8 +23,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/simplechain-org/go-simplechain/accounts/abi"
-	"github.com/simplechain-org/go-simplechain/common"
+	"github.com/bigzoro/my_simplechain/accounts/abi"
+	"github.com/bigzoro/my_simplechain/common"
 )
 
 // decodedCallData is an internal type to represent a method call parsed according

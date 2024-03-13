@@ -22,8 +22,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/simplechain-org/go-simplechain/common/mclock"
-	"github.com/simplechain-org/go-simplechain/p2p/enode"
+	"github.com/bigzoro/my_simplechain/common/mclock"
+	"github.com/bigzoro/my_simplechain/p2p/enode"
 )
 
 // clientTree is a full tree being synced.

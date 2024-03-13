@@ -17,8 +17,8 @@
 package rpc
 
 import (
-	"github.com/simplechain-org/go-simplechain/log"
-	"github.com/simplechain-org/go-simplechain/rpc/tls"
+	"github.com/bigzoro/my_simplechain/log"
+	"github.com/bigzoro/my_simplechain/rpc/tls"
 	"net"
 )
 

@@ -24,8 +24,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/simplechain-org/go-simplechain/crypto"
-	"github.com/simplechain-org/go-simplechain/p2p"
+	"github.com/bigzoro/my_simplechain/crypto"
+	"github.com/bigzoro/my_simplechain/p2p"
 )
 
 // Tests that datadirs can be successfully created, be them manually configured

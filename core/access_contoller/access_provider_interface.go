@@ -1,6 +1,6 @@
 package access_contoller
 
-import "my_simplechain/core/access_contoller/crypto"
+import "github.com/bigzoro/my_simplechain/core/access_contoller/crypto"
 
 const (
 	//PermissionedWithCert permissioned with certificate

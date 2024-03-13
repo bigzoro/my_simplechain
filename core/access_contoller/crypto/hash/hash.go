@@ -10,7 +10,7 @@ package hash
 import (
 	"crypto/sha256"
 	"fmt"
-	"github.com/simplechain-org/go-simplechain/core/access_contoller/crypto"
+	"github.com/bigzoro/my_simplechain/core/access_contoller/crypto"
 	"hash"
 
 	"github.com/tjfoc/gmsm/sm3"

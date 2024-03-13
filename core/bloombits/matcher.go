@@ -26,8 +26,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/simplechain-org/go-simplechain/common/bitutil"
-	"github.com/simplechain-org/go-simplechain/crypto"
+	"github.com/bigzoro/my_simplechain/common/bitutil"
+	"github.com/bigzoro/my_simplechain/crypto"
 )
 
 // bloomIndexes represents the bit indexes inside the bloom filter that belong

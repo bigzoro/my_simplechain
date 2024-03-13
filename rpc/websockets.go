@@ -20,16 +20,16 @@ import (
 	"context"
 	"encoding/base64"
 	"fmt"
-	"github.com/simplechain-org/go-simplechain/rpc/tls"
+	"github.com/bigzoro/my_simplechain/rpc/tls"
 	"net/http"
 	"net/url"
 	"os"
 	"strings"
 	"sync"
 
+	"github.com/bigzoro/my_simplechain/log"
 	mapset "github.com/deckarep/golang-set"
 	"github.com/gorilla/websocket"
-	"github.com/simplechain-org/go-simplechain/log"
 )
 
 const (

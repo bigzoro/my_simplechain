@@ -23,10 +23,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/simplechain-org/go-simplechain/cmd/utils"
-	"github.com/simplechain-org/go-simplechain/consensus/ethash"
-	"github.com/simplechain-org/go-simplechain/eth"
-	"github.com/simplechain-org/go-simplechain/params"
+	"github.com/bigzoro/my_simplechain/cmd/utils"
+	"github.com/bigzoro/my_simplechain/consensus/ethash"
+	"github.com/bigzoro/my_simplechain/eth"
+	"github.com/bigzoro/my_simplechain/params"
 	"gopkg.in/urfave/cli.v1"
 )
 

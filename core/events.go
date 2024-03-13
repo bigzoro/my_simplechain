@@ -17,8 +17,8 @@
 package core
 
 import (
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/core/types"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/core/types"
 )
 
 // NewTxsEvent is posted when a batch of transactions enter the transaction pool.

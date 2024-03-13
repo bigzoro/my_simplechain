@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"math/big"
 
+	"github.com/bigzoro/my_simplechain/consensus/hotstuff/common"
 	"github.com/bits-and-blooms/bitset"
 	bls12381 "github.com/kilic/bls12-381"
-	"github.com/simplechain-org/go-simplechain/consensus/hotstuff/common"
 )
 
 const (

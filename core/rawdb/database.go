@@ -23,12 +23,12 @@ import (
 	"os"
 	"time"
 
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/ethdb"
+	"github.com/bigzoro/my_simplechain/ethdb/leveldb"
+	"github.com/bigzoro/my_simplechain/ethdb/memorydb"
+	"github.com/bigzoro/my_simplechain/log"
 	"github.com/olekukonko/tablewriter"
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/ethdb"
-	"github.com/simplechain-org/go-simplechain/ethdb/leveldb"
-	"github.com/simplechain-org/go-simplechain/ethdb/memorydb"
-	"github.com/simplechain-org/go-simplechain/log"
 )
 
 // freezerdb is a database wrapper that enabled freezer data retrievals.

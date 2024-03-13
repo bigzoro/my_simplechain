@@ -14,7 +14,8 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with the go-simplechain library. If not, see <http://www.gnu.org/licenses/>.
 
-//+build go1.5
+//go:build go1.5
+// +build go1.5
 
 package debug
 
@@ -23,7 +24,7 @@ import (
 	"os"
 	"runtime/trace"
 
-	"github.com/simplechain-org/go-simplechain/log"
+	"github.com/bigzoro/my_simplechain/log"
 )
 
 // StartGoTrace turns on tracing, writing to the given file.

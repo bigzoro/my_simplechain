@@ -21,7 +21,7 @@ import (
 	"io"
 	"net"
 
-	"github.com/simplechain-org/go-simplechain/rlp"
+	"github.com/bigzoro/my_simplechain/rlp"
 )
 
 // Entry is implemented by known node record entry types.

@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/simplechain-org/go-simplechain/common"
+	"github.com/bigzoro/my_simplechain/common"
 )
 
 // AddPeer 添加节点
@@ -88,7 +88,7 @@ func (ec *Client) MakeProposalForCommon(ctx context.Context, fullNodeId string, 
 	return result, err
 }
 
-//AcceptProposalForCommon 接受成为普通节点提案
+// AcceptProposalForCommon 接受成为普通节点提案
 func (ec *Client) AcceptProposalForCommon(ctx context.Context, fullNodeId string, from common.Address) (string, error) {
 	var result string
 	err := ec.c.CallContext(ctx, &result, "permission_acceptProposalForCommon", fullNodeId, from)

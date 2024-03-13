@@ -20,7 +20,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/simplechain-org/go-simplechain/p2p/enode"
+	"github.com/bigzoro/my_simplechain/p2p/enode"
 )
 
 // Simulation provides a framework for running actions in a simulated network

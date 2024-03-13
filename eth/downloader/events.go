@@ -16,7 +16,7 @@
 
 package downloader
 
-import "github.com/simplechain-org/go-simplechain/core/types"
+import "github.com/bigzoro/my_simplechain/core/types"
 
 type DoneEvent struct {
 	Latest *types.Header

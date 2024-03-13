@@ -3,8 +3,8 @@ package core
 import (
 	"sync"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/core/types"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/core/types"
 )
 
 // txLookup is used internally by TxPool to track transactions while allowing lookup without

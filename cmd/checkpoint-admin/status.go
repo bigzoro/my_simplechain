@@ -19,8 +19,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/simplechain-org/go-simplechain/cmd/utils"
-	"github.com/simplechain-org/go-simplechain/common"
+	"github.com/bigzoro/my_simplechain/cmd/utils"
+	"github.com/bigzoro/my_simplechain/common"
 	"gopkg.in/urfave/cli.v1"
 )
 

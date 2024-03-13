@@ -26,10 +26,10 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/crypto"
-	"github.com/simplechain-org/go-simplechain/crypto/ecies"
-	"github.com/simplechain-org/go-simplechain/rlp"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/crypto"
+	"github.com/bigzoro/my_simplechain/crypto/ecies"
+	"github.com/bigzoro/my_simplechain/rlp"
 )
 
 // Envelope represents a clear-text data packet to transmit through the Whisper

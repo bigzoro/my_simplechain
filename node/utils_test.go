@@ -22,8 +22,8 @@ package node
 import (
 	"reflect"
 
-	"github.com/simplechain-org/go-simplechain/p2p"
-	"github.com/simplechain-org/go-simplechain/rpc"
+	"github.com/bigzoro/my_simplechain/p2p"
+	"github.com/bigzoro/my_simplechain/rpc"
 )
 
 // NoopService is a trivial implementation of the Service interface.

@@ -19,11 +19,11 @@ package abi
 import (
 	"encoding/binary"
 	"fmt"
-	"github.com/simplechain-org/go-simplechain/common/math"
+	"github.com/bigzoro/my_simplechain/common/math"
 	"math/big"
 	"reflect"
 
-	"github.com/simplechain-org/go-simplechain/common"
+	"github.com/bigzoro/my_simplechain/common"
 )
 
 var (

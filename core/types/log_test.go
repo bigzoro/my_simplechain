@@ -22,9 +22,9 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/common/hexutil"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/common/hexutil"
 )
 
 var unmarshalLogTests = map[string]struct {

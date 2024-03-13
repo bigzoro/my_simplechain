@@ -19,13 +19,13 @@ package core
 import (
 	"bytes"
 	"fmt"
-	"github.com/simplechain-org/go-simplechain/consensus/pbft"
-	"github.com/simplechain-org/go-simplechain/core/types"
+	"github.com/bigzoro/my_simplechain/consensus/pbft"
+	"github.com/bigzoro/my_simplechain/core/types"
 	"io"
 	"sync/atomic"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/rlp"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/rlp"
 )
 
 type Engine interface {
@@ -69,9 +69,10 @@ func (s State) String() string {
 }
 
 // Cmp compares s and y and returns:
-//   -1 if s is the previous state of y
-//    0 if s and y are the same state
-//   +1 if s is the next state of y
+//
+//	-1 if s is the previous state of y
+//	 0 if s and y are the same state
+//	+1 if s is the next state of y
 func (s State) Cmp(y State) int {
 	if uint64(s) < uint64(y) {
 		return -1

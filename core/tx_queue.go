@@ -13,7 +13,8 @@
 //
 // You should have received a copy of the GNU Lesser General Public License
 // along with the go-ethereum library. If not, see <http://www.gnu.org/licenses/>.
-//+build sub
+//go:build sub
+// +build sub
 
 package core
 
@@ -21,7 +22,7 @@ import (
 	"sync"
 
 	"github.com/Beyond-simplechain/foundation/container"
-	"github.com/simplechain-org/go-simplechain/core/types"
+	"github.com/bigzoro/my_simplechain/core/types"
 
 	rbt "github.com/Beyond-simplechain/foundation/container/redblacktree"
 )

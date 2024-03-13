@@ -29,13 +29,13 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/bigzoro/my_simplechain/event"
+	"github.com/bigzoro/my_simplechain/p2p"
+	"github.com/bigzoro/my_simplechain/p2p/enode"
+	"github.com/bigzoro/my_simplechain/p2p/simulations/adapters"
+	"github.com/bigzoro/my_simplechain/rpc"
 	"github.com/gorilla/websocket"
 	"github.com/julienschmidt/httprouter"
-	"github.com/simplechain-org/go-simplechain/event"
-	"github.com/simplechain-org/go-simplechain/p2p"
-	"github.com/simplechain-org/go-simplechain/p2p/enode"
-	"github.com/simplechain-org/go-simplechain/p2p/simulations/adapters"
-	"github.com/simplechain-org/go-simplechain/rpc"
 )
 
 // DefaultClient is the default simulation API client which expects the API

@@ -23,10 +23,10 @@ import (
 	"runtime"
 	"sort"
 
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/rlp"
+	"github.com/bigzoro/my_simplechain/trie"
 	parallelSort "github.com/exascience/pargo/sort"
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/rlp"
-	"github.com/simplechain-org/go-simplechain/trie"
 )
 
 type DerivableList interface {

@@ -4,8 +4,8 @@ import (
 	"io"
 	"sort"
 
-	"github.com/simplechain-org/go-simplechain/cmd/utils"
-	"github.com/simplechain-org/go-simplechain/internal/debug"
+	"github.com/bigzoro/my_simplechain/cmd/utils"
+	"github.com/bigzoro/my_simplechain/internal/debug"
 	cli "gopkg.in/urfave/cli.v1"
 )
 

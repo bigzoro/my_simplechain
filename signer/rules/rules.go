@@ -22,12 +22,12 @@ import (
 	"os"
 	"strings"
 
+	"github.com/bigzoro/my_simplechain/internal/ethapi"
+	"github.com/bigzoro/my_simplechain/log"
+	"github.com/bigzoro/my_simplechain/signer/core"
+	"github.com/bigzoro/my_simplechain/signer/rules/deps"
+	"github.com/bigzoro/my_simplechain/signer/storage"
 	"github.com/robertkrimen/otto"
-	"github.com/simplechain-org/go-simplechain/internal/ethapi"
-	"github.com/simplechain-org/go-simplechain/log"
-	"github.com/simplechain-org/go-simplechain/signer/core"
-	"github.com/simplechain-org/go-simplechain/signer/rules/deps"
-	"github.com/simplechain-org/go-simplechain/signer/storage"
 )
 
 var (

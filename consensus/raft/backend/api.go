@@ -1,7 +1,7 @@
 package backend
 
 import (
-	"github.com/simplechain-org/go-simplechain/consensus/raft"
+	"github.com/bigzoro/my_simplechain/consensus/raft"
 )
 
 type RaftNodeInfo struct {

@@ -7,8 +7,8 @@ import (
 	"sort"
 	"sync"
 
-	bls "github.com/simplechain-org/go-simplechain/consensus/hotstuff/bls12-381"
-	hots "github.com/simplechain-org/go-simplechain/consensus/hotstuff/common"
+	bls "github.com/bigzoro/my_simplechain/consensus/hotstuff/bls12-381"
+	hots "github.com/bigzoro/my_simplechain/consensus/hotstuff/common"
 )
 
 // An event of a node joined to removed from consensus replicas.

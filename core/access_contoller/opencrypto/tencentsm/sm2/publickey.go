@@ -13,16 +13,16 @@ import (
 	"crypto/elliptic"
 	"encoding/pem"
 	"fmt"
-	"github.com/simplechain-org/go-simplechain/core/access_contoller/crypto/hash"
-	"github.com/simplechain-org/go-simplechain/core/access_contoller/opencrypto/tencentsm/tencentsm"
-	"github.com/simplechain-org/go-simplechain/core/access_contoller/opencrypto/utils"
+	"github.com/bigzoro/my_simplechain/core/access_contoller/crypto/hash"
+	"github.com/bigzoro/my_simplechain/core/access_contoller/opencrypto/tencentsm/tencentsm"
+	"github.com/bigzoro/my_simplechain/core/access_contoller/opencrypto/utils"
 	"math/big"
 
 	tjx509 "github.com/tjfoc/gmsm/x509"
 
 	"github.com/pkg/errors"
 
-	bccrypto "github.com/simplechain-org/go-simplechain/core/access_contoller/crypto"
+	bccrypto "github.com/bigzoro/my_simplechain/core/access_contoller/crypto"
 )
 
 type PublicKey struct {

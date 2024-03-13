@@ -4,17 +4,17 @@ import (
 	"context"
 	"crypto/ecdsa"
 	"crypto/rand"
-	common2 "github.com/simplechain-org/go-simplechain/cmd/dummytx/common"
-	"github.com/simplechain-org/go-simplechain/cmd/dummytx/config"
+	common2 "github.com/bigzoro/my_simplechain/cmd/dummytx/common"
+	"github.com/bigzoro/my_simplechain/cmd/dummytx/config"
 	"log"
 	"math/big"
 	"strconv"
 	"time"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/core/types"
-	"github.com/simplechain-org/go-simplechain/crypto"
-	"github.com/simplechain-org/go-simplechain/ethclient"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/core/types"
+	"github.com/bigzoro/my_simplechain/crypto"
+	"github.com/bigzoro/my_simplechain/ethclient"
 )
 
 const (
@@ -109,7 +109,7 @@ func (s *Sender) claimFunds() {
 		if err != nil {
 			log.Fatalf(errPrefix+" get new nonce: %v", err)
 		}
-		tx := types.NewTransaction(nonce, sender, value, s.gasLimit.Uint64(),  s.gasPrice, nil)
+		tx := types.NewTransaction(nonce, sender, value, s.gasLimit.Uint64(), s.gasPrice, nil)
 		//Remove signature for POA test
 		chainID, err := strconv.ParseInt(s.chainID, 10, 64)
 		if err != nil {
@@ -150,7 +150,7 @@ func (s *Sender) sendTx(nonce uint64, index int, fromAddress common.Address) {
 }
 
 func (s *Sender) sendDummyTx(nonce uint64, data []byte, fromAddress common.Address, index int) {
-	tx := types.NewTransaction(nonce, fromAddress, big.NewInt(0), s.gasLimit.Uint64(),  s.gasPrice, data)
+	tx := types.NewTransaction(nonce, fromAddress, big.NewInt(0), s.gasLimit.Uint64(), s.gasPrice, data)
 	//Remove signature for POA test
 	chainID, err := strconv.ParseInt(s.chainID, 10, 64)
 	if err != nil {

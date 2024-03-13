@@ -22,8 +22,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/simplechain-org/go-simplechain/common/math"
-	"github.com/simplechain-org/go-simplechain/core/vm"
+	"github.com/bigzoro/my_simplechain/common/math"
+	"github.com/bigzoro/my_simplechain/core/vm"
 )
 
 // Compiler contains information about the parsed source

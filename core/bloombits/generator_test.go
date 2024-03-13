@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/simplechain-org/go-simplechain/core/types"
+	"github.com/bigzoro/my_simplechain/core/types"
 )
 
 // Tests that batched bloom bits are correctly rotated from the input bloom

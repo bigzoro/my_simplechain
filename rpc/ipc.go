@@ -20,8 +20,8 @@ import (
 	"context"
 	"net"
 
-	"github.com/simplechain-org/go-simplechain/log"
-	"github.com/simplechain-org/go-simplechain/p2p/netutil"
+	"github.com/bigzoro/my_simplechain/log"
+	"github.com/bigzoro/my_simplechain/p2p/netutil"
 )
 
 // ServeListener accepts connections on l, serving JSON-RPC on them.

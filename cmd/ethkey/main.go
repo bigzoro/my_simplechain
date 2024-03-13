@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/simplechain-org/go-simplechain/cmd/utils"
+	"github.com/bigzoro/my_simplechain/cmd/utils"
 	"gopkg.in/urfave/cli.v1"
 )
 

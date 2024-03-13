@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/simplechain-org/go-simplechain/event"
+	"github.com/bigzoro/my_simplechain/event"
 )
 
 func ExampleFeed_acknowledgedEvents() {

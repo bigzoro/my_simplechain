@@ -23,14 +23,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	cmath "github.com/simplechain-org/go-simplechain/common/math"
-	"github.com/simplechain-org/go-simplechain/common/prque"
-	"github.com/simplechain-org/go-simplechain/consensus/pbft"
-	"github.com/simplechain-org/go-simplechain/core/types"
-	"github.com/simplechain-org/go-simplechain/event"
-	"github.com/simplechain-org/go-simplechain/log"
-	"github.com/simplechain-org/go-simplechain/metrics"
+	"github.com/bigzoro/my_simplechain/common"
+	cmath "github.com/bigzoro/my_simplechain/common/math"
+	"github.com/bigzoro/my_simplechain/common/prque"
+	"github.com/bigzoro/my_simplechain/consensus/pbft"
+	"github.com/bigzoro/my_simplechain/core/types"
+	"github.com/bigzoro/my_simplechain/event"
+	"github.com/bigzoro/my_simplechain/log"
+	"github.com/bigzoro/my_simplechain/metrics"
 )
 
 // New creates an Istanbul consensus core

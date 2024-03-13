@@ -19,7 +19,7 @@ package abi
 import (
 	"math/big"
 
-	"github.com/simplechain-org/go-simplechain/common"
+	"github.com/bigzoro/my_simplechain/common"
 )
 
 type packUnpackTest struct {

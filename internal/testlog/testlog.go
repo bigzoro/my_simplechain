@@ -20,7 +20,7 @@ package testlog
 import (
 	"testing"
 
-	"github.com/simplechain-org/go-simplechain/log"
+	"github.com/bigzoro/my_simplechain/log"
 )
 
 // Logger returns a logger which logs to the unit test log of t.

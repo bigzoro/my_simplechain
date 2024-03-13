@@ -16,7 +16,7 @@
 
 package core
 
-import "github.com/simplechain-org/go-simplechain/consensus/pbft"
+import "github.com/bigzoro/my_simplechain/consensus/pbft"
 
 type backlogEvent struct {
 	src pbft.Validator

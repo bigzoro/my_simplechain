@@ -12,11 +12,11 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/bigzoro/my_simplechain/crypto"
+	"github.com/bigzoro/my_simplechain/crypto/ecies"
+	"github.com/bigzoro/my_simplechain/p2p/simulations/pipes"
+	"github.com/bigzoro/my_simplechain/rlp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/simplechain-org/go-simplechain/crypto"
-	"github.com/simplechain-org/go-simplechain/crypto/ecies"
-	"github.com/simplechain-org/go-simplechain/p2p/simulations/pipes"
-	"github.com/simplechain-org/go-simplechain/rlp"
 	"github.com/stretchr/testify/assert"
 )
 

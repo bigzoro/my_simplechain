@@ -18,7 +18,7 @@ package trie
 
 import (
 	"bytes"
-	"github.com/simplechain-org/go-simplechain/common/hexutil"
+	"github.com/bigzoro/my_simplechain/common/hexutil"
 	"testing"
 )
 

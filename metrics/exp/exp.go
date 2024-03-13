@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/simplechain-org/go-simplechain/metrics"
-	"github.com/simplechain-org/go-simplechain/metrics/prometheus"
+	"github.com/bigzoro/my_simplechain/metrics"
+	"github.com/bigzoro/my_simplechain/metrics/prometheus"
 )
 
 type exp struct {

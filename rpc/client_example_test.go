@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/simplechain-org/go-simplechain/rpc"
+	"github.com/bigzoro/my_simplechain/rpc"
 )
 
 // In this example, our client wishes to track the latest 'block number'

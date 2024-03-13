@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/simplechain-org/go-simplechain/consensus/pbft"
+	"github.com/bigzoro/my_simplechain/consensus/pbft"
 )
 
 func newTestPreprepare(v *pbft.View) *pbft.Preprepare {

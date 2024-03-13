@@ -18,14 +18,14 @@
 package consensus
 
 import (
-	"github.com/simplechain-org/go-simplechain/p2p"
+	"github.com/bigzoro/my_simplechain/p2p"
 	"math/big"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/core/state"
-	"github.com/simplechain-org/go-simplechain/core/types"
-	"github.com/simplechain-org/go-simplechain/params"
-	"github.com/simplechain-org/go-simplechain/rpc"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/core/state"
+	"github.com/bigzoro/my_simplechain/core/types"
+	"github.com/bigzoro/my_simplechain/params"
+	"github.com/bigzoro/my_simplechain/rpc"
 )
 
 // ChainReader defines a small collection of methods needed to access the local

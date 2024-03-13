@@ -27,13 +27,13 @@ import (
 
 	"net"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/common/hexutil"
-	"github.com/simplechain-org/go-simplechain/crypto"
-	"github.com/simplechain-org/go-simplechain/p2p"
-	"github.com/simplechain-org/go-simplechain/p2p/enode"
-	"github.com/simplechain-org/go-simplechain/p2p/nat"
-	"github.com/simplechain-org/go-simplechain/rlp"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/common/hexutil"
+	"github.com/bigzoro/my_simplechain/crypto"
+	"github.com/bigzoro/my_simplechain/p2p"
+	"github.com/bigzoro/my_simplechain/p2p/enode"
+	"github.com/bigzoro/my_simplechain/p2p/nat"
+	"github.com/bigzoro/my_simplechain/rlp"
 )
 
 var keys = []string{
@@ -487,7 +487,7 @@ func checkBloomFilterExchange(t *testing.T) {
 	}
 }
 
-//two generic whisper node handshake
+// two generic whisper node handshake
 func TestPeerHandshakeWithTwoFullNode(t *testing.T) {
 	w1 := Whisper{}
 	p1 := newPeer(&w1, p2p.NewPeer(enode.ID{}, "test", []p2p.Cap{}), &rwStub{[]interface{}{ProtocolVersion, uint64(123), make([]byte, BloomFilterSize), false}})
@@ -497,7 +497,7 @@ func TestPeerHandshakeWithTwoFullNode(t *testing.T) {
 	}
 }
 
-//two generic whisper node handshake. one don't send light flag
+// two generic whisper node handshake. one don't send light flag
 func TestHandshakeWithOldVersionWithoutLightModeFlag(t *testing.T) {
 	w1 := Whisper{}
 	p1 := newPeer(&w1, p2p.NewPeer(enode.ID{}, "test", []p2p.Cap{}), &rwStub{[]interface{}{ProtocolVersion, uint64(123), make([]byte, BloomFilterSize)}})
@@ -507,7 +507,7 @@ func TestHandshakeWithOldVersionWithoutLightModeFlag(t *testing.T) {
 	}
 }
 
-//two light nodes handshake. restriction disabled
+// two light nodes handshake. restriction disabled
 func TestTwoLightPeerHandshakeRestrictionOff(t *testing.T) {
 	w1 := Whisper{}
 	w1.settings.Store(restrictConnectionBetweenLightClientsIdx, false)
@@ -519,7 +519,7 @@ func TestTwoLightPeerHandshakeRestrictionOff(t *testing.T) {
 	}
 }
 
-//two light nodes handshake. restriction enabled
+// two light nodes handshake. restriction enabled
 func TestTwoLightPeerHandshakeError(t *testing.T) {
 	w1 := Whisper{}
 	w1.settings.Store(restrictConnectionBetweenLightClientsIdx, true)

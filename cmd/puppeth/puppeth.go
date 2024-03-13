@@ -23,7 +23,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/simplechain-org/go-simplechain/log"
+	"github.com/bigzoro/my_simplechain/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

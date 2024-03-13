@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/simplechain-org/go-simplechain/common"
-	"github.com/simplechain-org/go-simplechain/ethdb"
+	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/ethdb"
 )
 
 // Tests that the node iterator indeed walks over the entire database contents.

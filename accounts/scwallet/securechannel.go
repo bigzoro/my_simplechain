@@ -25,8 +25,8 @@ import (
 	"crypto/sha512"
 	"fmt"
 
+	"github.com/bigzoro/my_simplechain/crypto"
 	pcsc "github.com/gballet/go-libpcsclite"
-	"github.com/simplechain-org/go-simplechain/crypto"
 	"github.com/wsddn/go-ecdh"
 	"golang.org/x/crypto/pbkdf2"
 	"golang.org/x/text/unicode/norm"

@@ -21,7 +21,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/simplechain-org/go-simplechain/common/hexutil"
+	"github.com/bigzoro/my_simplechain/common/hexutil"
 )
 
 func TestBytesPadding(t *testing.T) {

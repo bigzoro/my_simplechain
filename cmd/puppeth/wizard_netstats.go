@@ -23,9 +23,9 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/bigzoro/my_simplechain/core"
+	"github.com/bigzoro/my_simplechain/log"
 	"github.com/olekukonko/tablewriter"
-	"github.com/simplechain-org/go-simplechain/core"
-	"github.com/simplechain-org/go-simplechain/log"
 )
 
 // networkStats verifies the status of network components and generates a protip
