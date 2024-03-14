@@ -263,6 +263,10 @@ func (c *BoundContract) createLegacyTx(opts *TransactOpts, contract *common.Addr
 	if err != nil {
 		return nil, err
 	}
+
+	if contract == nil {
+		return types.NewTransaction(nonce, common.Address{}, value, gasLimit, gasPrice, input), nil
+	}
 	return types.NewTransaction(nonce, *contract, value, gasLimit, gasPrice, input), nil
 }
 

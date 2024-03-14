@@ -154,6 +154,9 @@ func (tx *Transaction) ImportTime() int64             { return tx.timestamp }
 func (tx *Transaction) SetImportTime(timestamp int64) { tx.timestamp = timestamp }
 
 func (tx *Transaction) GetEndorsements() []*access_contoller.EndorsementEntry { return tx.endorsements }
+func (tx *Transaction) SetEndorsements(endorsements []*access_contoller.EndorsementEntry) {
+	tx.endorsements = endorsements
+}
 
 // for parallel executor
 func (tx *Transaction) SetIntrinsicGas(intrinsicGas uint64) {
