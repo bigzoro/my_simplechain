@@ -235,6 +235,10 @@ func (tx *Transaction) WithSignature(signer Signer, sig []byte) (*Transaction, e
 		return nil, err
 	}
 	cpy := &Transaction{data: tx.data}
+
+	if tx.endorsements != nil {
+		cpy.endorsements = tx.endorsements
+	}
 	cpy.data.R, cpy.data.S, cpy.data.V = r, s, v
 	return cpy, nil
 }
