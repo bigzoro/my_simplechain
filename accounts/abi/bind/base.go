@@ -20,6 +20,7 @@ import (
 	"context"
 	"errors"
 	"fmt"
+	"github.com/bigzoro/my_simplechain/core/access_contoller"
 	"math/big"
 	"strings"
 	"sync"
@@ -60,6 +61,8 @@ type TransactOpts struct {
 	Context context.Context // Network context to support cancellation and timeouts (nil = no timeout)
 
 	NoSend bool // Do all transact steps but do not send the transaction
+
+	Endorsements []*access_contoller.EndorsementEntry
 }
 
 // FilterOpts is the collection of options to fine tune filtering for events
