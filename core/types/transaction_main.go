@@ -46,9 +46,9 @@ func newTransaction(nonce uint64, to *common.Address, amount *big.Int, gasLimit 
 		d.Price.Set(gasPrice)
 	}
 
-	if endorsements != nil {
-		return &Transaction{data: d, endorsements: endorsements}
-	}
+	//if endorsements != nil {
+	//	return &Transaction{data: d, endorsements: endorsements}
+	//}
 
 	return &Transaction{data: d}
 }

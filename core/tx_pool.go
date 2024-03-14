@@ -519,26 +519,26 @@ func (pool *TxPool) validateAuth(tx *types.Transaction) error {
 	//var err error
 
 	// 构造背书信息
-	endorsements := tx.GetEndorsements()
+	//endorsements := tx.GetEndorsements()
 	// 构造资源信息
 	// 合约+方法名
-	contractName := tx.To()
-	funcName := tx.Data()[3:10]
-	resourceID := contractName.String() + "-" + string(funcName)
-
-	ac := pool.chain.GetAccessControl()
-	createPrincipal, err := ac.CreatePrincipal(resourceID, endorsements, tx.Data())
-	if err != nil {
-		panic(err)
-	}
-
-	ok, err := ac.VerifyPrincipal(createPrincipal)
-	if err != nil {
-		panic(err)
-	}
-	if !ok {
-		panic("!ok")
-	}
+	//contractName := tx.To()
+	//funcName := tx.Data()[3:10]
+	//resourceID := contractName.String() + "-" + string(funcName)
+	//
+	//ac := pool.chain.GetAccessControl()
+	//createPrincipal, err := ac.CreatePrincipal(resourceID, endorsements, tx.Data())
+	//if err != nil {
+	//	panic(err)
+	//}
+	//
+	//ok, err := ac.VerifyPrincipal(createPrincipal)
+	//if err != nil {
+	//	panic(err)
+	//}
+	//if !ok {
+	//	panic("!ok")
+	//}
 
 	return nil
 }

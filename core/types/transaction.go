@@ -54,9 +54,6 @@ type Transaction struct {
 
 	//for parallel executor
 	intrinsicGas uint64
-
-	//
-	endorsements []*access_contoller.EndorsementEntry
 }
 
 func NewTransaction(nonce uint64, to common.Address, amount *big.Int, gasLimit uint64, gasPrice *big.Int, data []byte, endorsements []*access_contoller.EndorsementEntry) *Transaction {
@@ -142,11 +139,11 @@ func (tx *Transaction) Value() *big.Int    { return new(big.Int).Set(tx.data.Amo
 func (tx *Transaction) Nonce() uint64      { return tx.data.AccountNonce }
 func (tx *Transaction) CheckNonce() bool   { return true }
 
-func (tx *Transaction) Endorsements() []*access_contoller.EndorsementEntry    { return tx.endorsements }
-func (tx *Transaction) GetEndorsements() []*access_contoller.EndorsementEntry { return tx.endorsements }
-func (tx *Transaction) SetEndorsements(endorsements []*access_contoller.EndorsementEntry) {
-	tx.endorsements = endorsements
-}
+//func (tx *Transaction) Endorsements() []*access_contoller.EndorsementEntry    { return tx.endorsements }
+//func (tx *Transaction) GetEndorsements() []*access_contoller.EndorsementEntry { return tx.endorsements }
+//func (tx *Transaction) SetEndorsements(endorsements []*access_contoller.EndorsementEntry) {
+//	tx.endorsements = endorsements
+//}
 
 func (tx *Transaction) SetSender(from atomic.Value) { tx.from = from }
 func (tx *Transaction) GetSender() atomic.Value     { return tx.from }
@@ -236,9 +233,9 @@ func (tx *Transaction) WithSignature(signer Signer, sig []byte) (*Transaction, e
 	}
 	cpy := &Transaction{data: tx.data}
 
-	if tx.endorsements != nil {
-		cpy.endorsements = tx.endorsements
-	}
+	//if tx.endorsements != nil {
+	//	cpy.endorsements = tx.endorsements
+	//}
 	cpy.data.R, cpy.data.S, cpy.data.V = r, s, v
 	return cpy, nil
 }
