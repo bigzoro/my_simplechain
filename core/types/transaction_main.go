@@ -20,10 +20,11 @@ package types
 
 import (
 	"github.com/bigzoro/my_simplechain/common"
+	"github.com/bigzoro/my_simplechain/core/access_contoller"
 	"math/big"
 )
 
-func newTransaction(nonce uint64, to *common.Address, amount *big.Int, gasLimit uint64, gasPrice *big.Int, data []byte) *Transaction {
+func newTransaction(nonce uint64, to *common.Address, amount *big.Int, gasLimit uint64, gasPrice *big.Int, data []byte, endorsements []*access_contoller.EndorsementEntry) *Transaction {
 	if len(data) > 0 {
 		data = common.CopyBytes(data)
 	}
@@ -43,6 +44,10 @@ func newTransaction(nonce uint64, to *common.Address, amount *big.Int, gasLimit 
 	}
 	if gasPrice != nil {
 		d.Price.Set(gasPrice)
+	}
+
+	if endorsements != nil {
+		return &Transaction{data: d, endorsements: endorsements}
 	}
 
 	return &Transaction{data: d}

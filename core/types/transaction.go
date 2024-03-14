@@ -59,12 +59,12 @@ type Transaction struct {
 	endorsements []*access_contoller.EndorsementEntry
 }
 
-func NewTransaction(nonce uint64, to common.Address, amount *big.Int, gasLimit uint64, gasPrice *big.Int, data []byte) *Transaction {
-	return newTransaction(nonce, &to, amount, gasLimit, gasPrice, data)
+func NewTransaction(nonce uint64, to common.Address, amount *big.Int, gasLimit uint64, gasPrice *big.Int, data []byte, endorsements []*access_contoller.EndorsementEntry) *Transaction {
+	return newTransaction(nonce, &to, amount, gasLimit, gasPrice, data, endorsements)
 }
 
 func NewContractCreation(nonce uint64, amount *big.Int, gasLimit uint64, gasPrice *big.Int, data []byte) *Transaction {
-	return newTransaction(nonce, nil, amount, gasLimit, gasPrice, data)
+	return newTransaction(nonce, nil, amount, gasLimit, gasPrice, data, nil)
 }
 
 // ChainId returns which chain id this transaction was signed for (if at all)
@@ -142,6 +142,12 @@ func (tx *Transaction) Value() *big.Int    { return new(big.Int).Set(tx.data.Amo
 func (tx *Transaction) Nonce() uint64      { return tx.data.AccountNonce }
 func (tx *Transaction) CheckNonce() bool   { return true }
 
+func (tx *Transaction) Endorsements() []*access_contoller.EndorsementEntry    { return tx.endorsements }
+func (tx *Transaction) GetEndorsements() []*access_contoller.EndorsementEntry { return tx.endorsements }
+func (tx *Transaction) SetEndorsements(endorsements []*access_contoller.EndorsementEntry) {
+	tx.endorsements = endorsements
+}
+
 func (tx *Transaction) SetSender(from atomic.Value) { tx.from = from }
 func (tx *Transaction) GetSender() atomic.Value     { return tx.from }
 
@@ -152,11 +158,6 @@ func (tx *Transaction) IsLocal() bool                 { return tx.local }
 func (tx *Transaction) SetLocal(local bool)           { tx.local = local }
 func (tx *Transaction) ImportTime() int64             { return tx.timestamp }
 func (tx *Transaction) SetImportTime(timestamp int64) { tx.timestamp = timestamp }
-
-func (tx *Transaction) GetEndorsements() []*access_contoller.EndorsementEntry { return tx.endorsements }
-func (tx *Transaction) SetEndorsements(endorsements []*access_contoller.EndorsementEntry) {
-	tx.endorsements = endorsements
-}
 
 // for parallel executor
 func (tx *Transaction) SetIntrinsicGas(intrinsicGas uint64) {

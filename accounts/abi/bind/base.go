@@ -268,9 +268,10 @@ func (c *BoundContract) createLegacyTx(opts *TransactOpts, contract *common.Addr
 	}
 
 	if contract == nil {
-		return types.NewTransaction(nonce, common.Address{}, value, gasLimit, gasPrice, input), nil
+		return types.NewTransaction(nonce, common.Address{}, value, gasLimit, gasPrice, input, opts.Endorsements), nil
 	}
-	return types.NewTransaction(nonce, *contract, value, gasLimit, gasPrice, input), nil
+
+	return types.NewTransaction(nonce, *contract, value, gasLimit, gasPrice, input, opts.Endorsements), nil
 }
 
 func (c *BoundContract) estimateGasLimit(opts *TransactOpts, contract *common.Address, input []byte, gasPrice, gasTipCap, gasFeeCap, value *big.Int) (uint64, error) {
