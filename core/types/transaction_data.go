@@ -21,7 +21,6 @@ package types
 import (
 	"github.com/bigzoro/my_simplechain/common"
 	"github.com/bigzoro/my_simplechain/common/hexutil"
-	"github.com/bigzoro/my_simplechain/core/access_contoller"
 	"math/big"
 )
 
@@ -45,7 +44,7 @@ type txdata struct {
 	// This is only used when marshaling to JSON.
 	Hash *common.Hash `json:"hash" rlp:"-"`
 
-	Endorsements []*access_contoller.EndorsementEntry `json:"endorsements"    gencodec:"required"`
+	Endorsements []byte
 }
 
 type txdataMarshaling struct {

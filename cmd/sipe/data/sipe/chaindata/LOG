@@ -250,3 +250,27 @@
 09:01:34.806108 db@open done T·15.0261ms
 09:05:55.502508 db@close closing
 09:05:55.503055 db@close done T·547.1µs
+=============== Mar 15, 2024 (CST) ===============
+09:09:13.403957 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:09:13.405623 version@stat F·[1 2] S·3MiB[2KiB 3MiB] Sc·[0.25 0.03]
+09:09:13.406637 db@open opening
+09:09:13.406637 journal@recovery F·1
+09:09:13.408154 journal@recovery recovering @58
+09:09:13.417672 memdb@flush created L0@60 N·2360 S·120KiB "H\x02\x12..\x1c\xe9.,v89612":"r\x00\x00..\x1b6',v90874"
+09:09:13.420544 version@stat F·[2 2] S·3MiB[122KiB 3MiB] Sc·[0.50 0.03]
+09:09:13.429111 db@janitor F·6 G·0
+09:09:13.429111 db@open done T·22.4739ms
+09:15:09.831083 db@close closing
+09:15:09.831614 db@close done T·531µs
+=============== Mar 15, 2024 (CST) ===============
+09:18:28.729908 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+09:18:28.731308 version@stat F·[2 2] S·3MiB[122KiB 3MiB] Sc·[0.50 0.03]
+09:18:28.731308 db@open opening
+09:18:28.731308 journal@recovery F·1
+09:18:28.733340 journal@recovery recovering @61
+09:18:28.743418 memdb@flush created L0@63 N·3215 S·164KiB "H\x00\xfa..\xa6\xaed,v91658":"r\x00\x00..\xca\xf6\x90,v94090"
+09:18:28.745978 version@stat F·[3 2] S·3MiB[286KiB 3MiB] Sc·[0.75 0.03]
+09:18:28.752306 db@janitor F·7 G·0
+09:18:28.752306 db@open done T·20.9977ms
+09:18:32.697724 db@close closing
+09:18:32.697724 db@close done T·0s

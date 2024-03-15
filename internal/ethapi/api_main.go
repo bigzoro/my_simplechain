@@ -22,7 +22,6 @@ import (
 	"bytes"
 	"context"
 	"errors"
-	"github.com/bigzoro/my_simplechain/core/access_contoller"
 	"github.com/bigzoro/my_simplechain/crypto"
 	"math/big"
 
@@ -46,7 +45,7 @@ type SendTxArgs struct {
 	Data  *hexutil.Bytes `json:"data"`
 	Input *hexutil.Bytes `json:"input"`
 
-	Endorsements *access_contoller.EndorsementEntry `json:"endorsements"`
+	Endorsements []byte `json:"endorsements"`
 }
 
 // setDefaults is a helper function that fills in default values for unspecified tx fields.
@@ -138,5 +137,5 @@ func (args *SendTxArgs) toTransaction() *types.Transaction {
 	if args.To == nil {
 		return types.NewContractCreation(uint64(*args.Nonce), (*big.Int)(args.Value), uint64(*args.Gas), (*big.Int)(args.GasPrice), input)
 	}
-	return types.NewTransaction(uint64(*args.Nonce), *args.To, (*big.Int)(args.Value), uint64(*args.Gas), (*big.Int)(args.GasPrice), input, []*access_contoller.EndorsementEntry{args.Endorsements})
+	return types.NewTransaction(uint64(*args.Nonce), *args.To, (*big.Int)(args.Value), uint64(*args.Gas), (*big.Int)(args.GasPrice), input, args.Endorsements)
 }

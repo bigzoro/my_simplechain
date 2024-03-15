@@ -4,7 +4,6 @@ import (
 	"container/heap"
 	"errors"
 	"github.com/bigzoro/my_simplechain/common"
-	"github.com/bigzoro/my_simplechain/core/access_contoller"
 	"github.com/bigzoro/my_simplechain/crypto"
 	"github.com/bigzoro/my_simplechain/rlp"
 	"io"
@@ -56,7 +55,7 @@ type Transaction struct {
 	intrinsicGas uint64
 }
 
-func NewTransaction(nonce uint64, to common.Address, amount *big.Int, gasLimit uint64, gasPrice *big.Int, data []byte, endorsements []*access_contoller.EndorsementEntry) *Transaction {
+func NewTransaction(nonce uint64, to common.Address, amount *big.Int, gasLimit uint64, gasPrice *big.Int, data []byte, endorsements []byte) *Transaction {
 	return newTransaction(nonce, &to, amount, gasLimit, gasPrice, data, endorsements)
 }
 

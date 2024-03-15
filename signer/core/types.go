@@ -19,7 +19,6 @@ package core
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/bigzoro/my_simplechain/core/access_contoller"
 	"math/big"
 	"strings"
 
@@ -78,7 +77,7 @@ type SendTxArgs struct {
 	Data  *hexutil.Bytes `json:"data"`
 	Input *hexutil.Bytes `json:"input,omitempty"`
 
-	Endorsements []*access_contoller.EndorsementEntry
+	Endorsements []byte
 }
 
 func (args SendTxArgs) String() string {
