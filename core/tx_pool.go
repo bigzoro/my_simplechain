@@ -19,6 +19,7 @@
 package core
 
 import (
+	"encoding/json"
 	"errors"
 	"fmt"
 	"github.com/bigzoro/my_simplechain/core/access_contoller"
@@ -514,10 +515,17 @@ func (pool *TxPool) local() map[common.Address]types.Transactions {
 	return txs
 }
 
-func (pool *TxPool) validateAuth(tx *types.Transaction) error {
+func (pool *TxPool) validateAuth(tx *types.Transaction, local bool) error {
 	//var principal access_contoller.Principal
 	//var err error
 
+	var endorsements []access_contoller.EndorsementEntry
+	err := json.Unmarshal(tx.Endorsements(), &endorsements)
+	if err != nil {
+		panic(err)
+	}
+
+	fmt.Println(err)
 	// 构造背书信息
 	//endorsements := tx.GetEndorsements()
 	// 构造资源信息
@@ -631,6 +639,9 @@ func (pool *TxPool) add(tx *types.Transaction, local bool) (replaced bool, err e
 	}
 
 	// 这里开始校验权限
+	if err := pool.validateAuth(tx, local); err != nil {
+		panic(err)
+	}
 
 	// If the transaction pool is full, discard underpriced transactions
 	if uint64(pool.all.Count()) >= pool.config.GlobalSlots+pool.config.GlobalQueue {

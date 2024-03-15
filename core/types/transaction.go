@@ -138,7 +138,8 @@ func (tx *Transaction) Value() *big.Int    { return new(big.Int).Set(tx.data.Amo
 func (tx *Transaction) Nonce() uint64      { return tx.data.AccountNonce }
 func (tx *Transaction) CheckNonce() bool   { return true }
 
-//func (tx *Transaction) Endorsements() []*access_contoller.EndorsementEntry    { return tx.endorsements }
+func (tx *Transaction) Endorsements() []byte { return tx.data.Endorsements }
+
 //func (tx *Transaction) GetEndorsements() []*access_contoller.EndorsementEntry { return tx.endorsements }
 //func (tx *Transaction) SetEndorsements(endorsements []*access_contoller.EndorsementEntry) {
 //	tx.endorsements = endorsements
