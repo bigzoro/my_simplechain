@@ -38,6 +38,7 @@ func newTransaction(nonce uint64, to *common.Address, amount *big.Int, gasLimit 
 		V:            new(big.Int),
 		R:            new(big.Int),
 		S:            new(big.Int),
+		Endorsements: endorsements,
 	}
 	if amount != nil {
 		d.Amount.Set(amount)
